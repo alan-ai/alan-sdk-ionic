@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-toolbar mode="ios">
+        <ion-buttons slot="start">
+            <ion-button (click)="goToMenu()">
+                <ion-icon slot="icon-only" name="close"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title></ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <div class="ac-h1 finish-order-page-title"
+                     style="text-align: center">
+                    Thank you!
+                    <br/>
+                    We have already started preparing your order.
+                </div>
+
+                <ion-button class="wide-btn"
+                            (click)="goToMenu()"
+                            expand="block">
+                    Back to Menu
+                </ion-button>
+
+                <img class="finish-order-img"
+                     src="../../assets/finish-order/finish-order.png"/>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-content>

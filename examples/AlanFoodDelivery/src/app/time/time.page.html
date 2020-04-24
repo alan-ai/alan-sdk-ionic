@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar mode="ios">
+        <ion-back-button text=""
+                         icon="ios-arrow-back"
+                         defaultHref="/menu"></ion-back-button>
+        <ion-title>Time</ion-title>
+        <ion-buttons slot="end">
+            <ion-button (click)="saveTime()" mode="ios">
+                <ion-icon name="checkmark"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <form (ngSubmit)="saveTime()">
+                    <ion-textarea [(ngModel)]="time"
+                                  name="time"
+                                  autofocus="true"
+                                  placeholder="Enter time here..."></ion-textarea>
+
+                </form>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

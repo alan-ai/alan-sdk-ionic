@@ -1,0 +1,104 @@
+@import '../../alan_global';
+
+ion-grid {
+  margin-top: 32px;
+  margin-bottom: 120px;
+  @include desktopScreen() {
+    margin-top: 14px;
+  }
+}
+
+.card-holder {
+  position: relative;
+  z-index: 2;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+
+  @include desktopScreen() {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card-holder-border {
+    z-index: -1;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    border-radius: 12px;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    background: linear-gradient(to bottom, rgb(62, 131, 254) 0%, rgb(12, 209, 232) 100%);
+
+    &.highlighted {
+      opacity: 1;
+      transition: opacity 300ms ease-in-out;
+    }
+  }
+}
+
+ion-card {
+  @include noselect();
+  margin: 0;
+  position: relative;
+
+  img {
+    height: 120px;
+    object-fit: cover;
+    @include desktopScreen() {
+      height: 190px;
+
+    }
+  }
+
+  ion-card-content {
+    padding-left: 21px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    background: #fff;
+
+    b {
+      @include font-18-21();
+      color: $a-black;
+    }
+  }
+
+  .item-price {
+    color: $a-grey;
+    @include font-14-14();
+    margin-bottom: 8px;
+  }
+  .item-title {
+    color: $a-black;
+    @include font-18-21();
+  }
+  .item-quantity, .item-quantity-back {
+    @include font-18-21();
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    width: 52px;
+    height: 40px;
+    line-height: 40px;
+    background-color: $a-green;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border-radius: 10px;
+    pointer-events: none;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+}
+
+ion-footer {
+  ion-toolbar {
+    padding: 24px 12px;
+  }
+}

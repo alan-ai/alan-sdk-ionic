@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons / color-drinks</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-color-drinks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M448,64 L104,64 L104,288 C104,332 140,368 184,368 L328,368 C372,368 408,332 408,288 L408,224 L448,224 C470,224 488,206 488,184 L488,104 C488,82 470,64 448,64 Z M448,176 L408,176 L408,112 L448,112 L448,176 Z" id="Shape" fill="#4387FF" fill-rule="nonzero"></path>
+        <path d="M96,400 L416,400 C429.254834,400 440,410.745166 440,424 L440,424 C440,437.254834 429.254834,448 416,448 L96,448 C82.745166,448 72,437.254834 72,424 L72,424 C72,410.745166 82.745166,400 96,400 Z" id="Path" fill="#2071FF" fill-rule="nonzero"></path>
+    </g>
+</svg>

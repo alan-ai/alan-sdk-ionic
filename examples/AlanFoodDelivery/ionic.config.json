@@ -1,0 +1,8 @@
+{
+  "name": "AlanFoodDelivery",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "88e04201"
+}

@@ -1,0 +1,80 @@
+@import '../../alan_global';
+
+.cart-page-title {
+  margin-bottom: 16px;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.cart-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.cart-title {
+  font-weight: bold;
+  @include font-18-21();
+  margin-bottom: 12px;
+}
+
+.cart-type {
+  @include font-14-14();
+  color: $a-grey;
+  text-transform: uppercase;
+}
+
+.cart-price {
+  @include font-14-14();
+  color: $a-grey;
+  margin-bottom: 8px;
+}
+
+.select {
+  @include font-16-18();
+  color: $a-blue;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  transition: background-color 300ms ease-in-out;
+  &.highlighted {
+    transition: background-color 300ms ease-in-out;
+    background-color: rgb(233, 241, 255);
+  }
+}
+
+.total {
+  display: inline-block;
+  transition: color 300ms ease-in-out;
+  &.highlighted {
+    color: $a-blue;
+    transition: color 300ms ease-in-out;
+  }
+}
+
+.address-item, .time-item, .date-item {
+  padding-top: 36px;
+  position: relative;
+  left: -16px;
+  width: calc(100% + 32px);
+
+  .item-title,
+  .item-val {
+    padding-left: 16px;
+  }
+
+  ion-label {
+    margin-bottom: 0;
+  }
+}
+
+.clear-btn {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+ion-footer {
+  ion-toolbar {
+    padding: 24px 12px;
+  }
+}

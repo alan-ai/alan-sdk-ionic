@@ -1,0 +1,147 @@
+<ion-header>
+
+    <ion-toolbar mode="ios">
+        <ion-back-button text="" icon="close"
+                         defaultHref="/menu"></ion-back-button>
+        <ion-title>Cart</ion-title>
+        <ion-buttons slot="end" (click)="clearOrder()">
+            <a class="clear-btn">Clear</a>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <div class="ac-h1 cart-page-title">
+                    You added {{orderedItemsCount}} items, <span id="total" class="total">${{total}}</span>&nbsp;total
+                </div>
+                <ion-list class="list ">
+                    <ion-item *ngFor="let item of orderedItems"
+                              class="in-list item ion-focusable item-label">
+                        <ion-thumbnail slot="start">
+                            <img class="cart-img"
+                                 src="{{'../../assets/menu/'+item.img+'.jpg'}}">
+                        </ion-thumbnail>
+                        <ion-label>
+                            <ion-row>
+                                <ion-col size="12"
+                                         size-xl="10"
+                                         size-lg="10"
+                                         size-md="10"
+                                         size-sm="6"
+                                         size-xs="6">
+                                    <div class="cart-title">{{item.title}}</div>
+                                    <div class="cart-type">{{item.type}}</div>
+                                </ion-col>
+                                <ion-col size="12"
+                                         size-xl="2"
+                                         size-lg="2"
+                                         size-md="2"
+                                         size-sm="6"
+                                         size-xs="6" style="text-align: right">
+                                    <div class="cart-price">${{item.price}}</div>
+                                    <div>
+                                        <ion-row nowrap class="ion-justify-content-between ion-align-items-center"
+                                                 style="height: 100%">
+                                            <ion-icon *ngIf="item.quantity>0"
+                                                      (click)="deleteFromCart(item.id)"
+                                                      [@removeItemStateOnCart]="item.quantity"
+                                                      class="remove-item-btn {{desktop?'clickable':''}}"
+                                                      name="remove-circle"></ion-icon>
+                                            <div class="cart-quantity">{{item.quantity}}</div>
+                                            <ion-icon (click)="addToCart(item.id)"
+                                                      class="add-item-btn {{desktop?'clickable':''}}"
+                                                      [@addItemStateOnCart]="item.quantity"
+                                                      name="add-circle"></ion-icon>
+                                        </ion-row>
+                                    </div>
+                                </ion-col>
+                            </ion-row>
+                        </ion-label>
+                    </ion-item>
+
+                    <ion-grid>
+                        <ion-row>
+                            <ion-col>
+                                <ion-item detail="false"
+                                          class="in-list item ion-focusable item-label address-item"
+                                          routerLink="/address"
+                                          routerDirection="forward">
+                                    <ion-label>
+                                        <div class="ac-h1 item-title">
+                                            Delivery address
+                                        </div>
+                                        <div class="item-val select" id="address">
+                                            {{address || "Choose Delivery Address"}}
+                                        </div>
+                                    </ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col size="12"
+                                     size-xl="6"
+                                     size-lg="6"
+                                     size-md="6"
+                                     size-sm="12"
+                                     size-xs="12">
+                                <ion-item detail="false"
+                                          class="in-list item ion-focusable item-label time-item"
+                                          routerLink="/date"
+                                          routerDirection="forward">
+                                    <ion-label>
+                                        <div class="ac-h1 item-title">
+                                            Delivery Date
+                                        </div>
+                                        <div class="select item-val" id="date">
+                                            {{date || "Today"}}
+                                        </div>
+                                    </ion-label>
+                                </ion-item>
+                            </ion-col>
+                            <ion-col size="12"
+                                     size-xl="6"
+                                     size-lg="6"
+                                     size-md="6"
+                                     size-sm="12"
+                                     size-xs="12">
+                                <ion-item detail="false"
+                                          class="in-list item ion-focusable item-label time-item"
+                                          routerLink="/time"
+                                          routerDirection="forward">
+                                    <ion-label>
+                                        <div class="ac-h1 item-title">
+                                            Delivery Time
+                                        </div>
+                                        <div class="select item-val" id="time">
+                                            {{time || "As soon as possible"}}
+                                        </div>
+                                    </ion-label>
+                                </ion-item>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </ion-list>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-button class="wide-btn"
+                                routerLink="/finish-order"
+                                routerDirection="forward"
+                                disabled="{{!address}}"
+                                expand="block">
+                        Finish order
+                    </ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-toolbar>
+</ion-footer>

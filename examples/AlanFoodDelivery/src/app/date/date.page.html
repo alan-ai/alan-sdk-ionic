@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar mode="ios">
+        <ion-back-button text=""
+                         icon="ios-arrow-back"
+                         defaultHref="/menu"></ion-back-button>
+        <ion-title>Date</ion-title>
+        <ion-buttons slot="end">
+            <ion-button (click)="saveDate()" mode="ios">
+                <ion-icon name="checkmark"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <form (ngSubmit)="saveDate()">
+                    <ion-textarea [(ngModel)]="date"
+                                  name="date"
+                                  autofocus="true"
+                                  placeholder="Enter date here..."></ion-textarea>
+
+                </form>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

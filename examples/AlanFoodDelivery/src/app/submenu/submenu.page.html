@@ -1,0 +1,66 @@
+<ion-header #header>
+    <ion-toolbar slot="star" mode="ios">
+        <ion-back-button text=""
+                         icon="ios-arrow-back"
+                         defaultHref="/menu"></ion-back-button>
+        <ion-title>
+            {{category}}
+        </ion-title>
+    </ion-toolbar>
+    <app-order-toolbar routerLink="/cart"
+                       routerDirection="forward"></app-order-toolbar>
+</ion-header>
+<ion-content #list>
+    <ion-grid>
+        <ion-row>
+            <ion-col *ngFor="let item of menuItems"
+                     size="12"
+                     size-xl="6"
+                     size-lg="6"
+                     size-md="6"
+                     size-sm="6"
+                     size-xs="12"
+                     id="{{item.id}}">
+                <div class="card-holder">
+                    <div class="card-holder-border" id="{{item.id}}-border"></div>
+                    <ion-card>
+                        <div class="item-quantity"
+                             [@itemStateBack]="item.quantity"
+                             *ngIf="item.quantity>0">{{item.quantity}}
+                        </div>
+                        <div class="item-quantity-back"
+                             [@itemState]="item.quantity"
+                             *ngIf="item.quantity>0">{{item.quantity}}
+                        </div>
+                        <img src="{{'../../assets/menu/'+item.img+'.jpg'}}"/>
+                        <ion-card-content>
+                            <div class="item-price">
+                                ${{item.price}}
+                            </div>
+                            <ion-row class="ion-justify-content-between ion-align-items-center ion-nowrap"
+                                     style="height: 100%">
+                                <ion-col size="8">
+                                    <div class="item-title">
+                                        {{item.title}}
+                                    </div>
+                                </ion-col>
+                                <ion-col size="4" style="text-align: right;font-size:20px;white-space: nowrap">
+                                    <ion-icon *ngIf="item.quantity>0"
+                                              (click)="deleteFromCart(item)"
+                                              [@removeItemState]="item.quantity"
+                                              class="remove-item-btn {{desktop?'clickable':''}}"
+                                              name="remove-circle"></ion-icon>
+                                    <ion-icon (click)="addToCart(item)"
+                                              class="add-item-btn {{desktop?'clickable':''}}"
+                                              [@addItemState]="item.quantity"
+                                              name="add-circle"></ion-icon>
+                                </ion-col>
+                            </ion-row>
+
+                        </ion-card-content>
+                    </ion-card>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

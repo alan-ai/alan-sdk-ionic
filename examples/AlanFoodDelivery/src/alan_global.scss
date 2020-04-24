@@ -1,0 +1,58 @@
+$a-grey: rgb(155, 155, 155);
+$a-light-grey: rgb(200, 199, 204);
+$a-black: rgb(0, 0, 0);
+$a-blue: rgb(56, 128, 255);
+$a-green: rgb(15, 220, 96);
+$a-green-dark: rgb(12, 176, 76);
+$a-red: rgb(240, 65, 65);
+$a-red-dark: rgb(192, 52, 52);
+$max-width: 1000px;
+
+@mixin font-14-14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@mixin font-18-21 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@mixin font-16-18 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@mixin font-22-26 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+@mixin noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none;
+}
+
+@mixin desktopScreen {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+.alan-logo {
+  height: 16px;
+}
+
+ion-grid {
+  padding: 0;
+  @include desktopScreen() {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

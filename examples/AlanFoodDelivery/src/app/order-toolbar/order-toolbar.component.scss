@@ -1,0 +1,72 @@
+@import '../../alan_global';
+
+.order-toolbar {
+  transform: translate3d(0, 0, 0);
+  @include noselect();
+  padding: 12px;
+  border-top: .55px solid $a-light-grey;
+  overflow: hidden;
+  border-bottom: .55px solid $a-light-grey;
+  transition: background-color 300ms ease-in-out;
+  background-color: #fff;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+  @include desktopScreen() {
+    max-width: $max-width - 20px;
+    width: calc(100% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    height: 64px;
+    border-radius: 16px;
+    border: solid 1px #c8c7cc;
+    background-color: #ffffff;
+    margin-bottom: 14px;
+    margin-top: 14px;
+  }
+
+  &:hover {
+    &.clickable {
+      background-color: rgb(233, 241, 255);
+      transition: background-color 300ms ease-in-out;
+    }
+  }
+
+  &:active {
+    background-color: rgb(211, 227, 255);
+    transition: background-color 300ms ease-in-out;
+  }
+  &:hover, &:active {
+    ion-badge {
+      transition: background-color 300ms ease-in-out;
+      background-color: $a-green-dark;
+    }
+  }
+
+  img {
+    height: 32px;
+    width: 32px;
+    transition: all 300ms ease-in-out;
+  }
+
+  .icon-holder {
+    position: relative;
+    margin-right: 14px;
+    @media (min-width: 375px) {
+      margin-right: 24px;
+    }
+  }
+
+  ion-badge {
+    transition: background-color 300ms ease-in-out;
+    background-color: $a-green;
+    position: absolute;
+    right: -14px;
+    font-size: 10px;
+    bottom: 0px;
+    @media (min-width: 375px) {
+      font-size: 13px;
+      right: -18px;
+    }
+  }
+}

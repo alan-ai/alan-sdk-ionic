@@ -1,0 +1,118 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+@import './alan_global';
+
+.right {
+  float: right;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  right: 12px;
+  top: calc(50% - 10px);
+}
+
+.left {
+  float: right;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  left: 12px;
+  top: calc(50% - 10px);
+}
+
+ion-col {
+  padding: 0;
+}
+
+.ac-h1 {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: bold;
+}
+
+ion-back-button {
+  margin-left: 8px;
+}
+
+ion-header {
+  ion-toolbar {
+    border-bottom: 0.55px solid $a-light-grey;
+  }
+}
+
+.add-item-btn {
+  color: $a-green;
+  margin-left: 14px;
+  cursor: pointer;
+  font-size: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //&.clickable {
+  //  &:hover {
+  //    color: $a-green-dark;
+  //    transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //  }
+  //}
+  //&:active {
+  //  transform: scale(1.11);
+  //  transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //}
+}
+
+.remove-item-btn {
+  color: $a-red;
+  margin-right: 14px;
+  cursor: pointer;
+  font-size: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //&.clickable {
+  //  &:hover {
+  //    color: $a-red-dark;
+  //    transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //  }
+  //}
+  //&:active {
+  //  transform: scale(1.11);
+  //  transition: color 300ms ease-in-out, transform 300ms ease-in-out;
+  //}
+}
+
+ion-card {
+  outline: none !important;
+}
+
+.header-md {
+  &:after {
+    background-image: none;
+  }
+}
+
+.wide-btn {
+  @include desktopScreen() {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 460px;
+  }
+}
+
+ion-back-button, ion-button ion-icon {
+  color: var(--ion-color-primary) !important;
+}
+
+* {
+  outline: none;
+  &:active, &:focus {
+    outline: none;
+  }
+}

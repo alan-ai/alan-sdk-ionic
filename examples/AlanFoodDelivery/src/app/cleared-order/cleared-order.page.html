@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar mode="ios">
+        <ion-back-button text="" icon="close" defaultHref="/menu"></ion-back-button>
+        <ion-title>Cart</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid style="height:100%">
+        <ion-row style="height:100%" align-items-center justify-content-center>
+            <ion-col size="12" align-items-center justify-content-center>
+                <div class="ac-h1 cleared-order-page-title">
+                    Your cart is empty
+                </div>
+                <ion-button routerLink="/"
+                            routerDirection="back"
+                            class="back-btn wide-btn"
+                            expand="block">Back to Menu
+                </ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

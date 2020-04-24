@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-toolbar mode="ios">
+        <ion-title (click)="showVersion()">
+            <img class="alan-logo" src="../../assets/icon/alan-logo.svg"/>
+            Alan Food Delivery
+        </ion-title>
+    </ion-toolbar>
+    <app-order-toolbar routerLink="/cart"
+                       routerDirection="forward"></app-order-toolbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <div class="menu-page-title ac-h1">
+                Menu
+            </div>
+        </ion-row>
+        <ion-row align-items-center>
+            <ion-col *ngFor="let category of categories"
+                     size="12"
+                     size-xl="6"
+                     size-lg="6"
+                     size-md="6"
+                     size-sm="6"
+                     size-xs="12"
+            >
+                <ion-card routerLink="/menu/{{category.type}}"
+                          routerDirection="forward"
+                          class="{{desktop?'clickable':''}}">
+                    <div class="menu-gradient">
+                        <img src="../../assets/menu/{{category.categoryImg}}.jpg"/>
+                    </div>
+                    <ion-card-title> {{category.title}}</ion-card-title>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
