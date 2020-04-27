@@ -2,7 +2,7 @@
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AlanFoodDelivery</name>
     <description>Alan Food Delivery example application.</description>
-    <author email="support@alan.app" href="http://ialan.app/">Alan AI SDK Team</author>
+    <author email="support@alan.app" href="http://alan.app/">Alan AI SDK Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
