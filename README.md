@@ -4,7 +4,6 @@
 [Blog](https://alan.app/blog/) • [Twitter](https://twitter.com/alanvoiceai)
 
 [![npm](https://img.shields.io/npm/v/@alan-ai/alan-sdk-web.svg)](https://www.npmjs.com/package/@alan-ai/cordova-plugin-alan-voice)
-[![npm](https://img.shields.io/npm/l/@alan-ai/alan-sdk-web.svg)]()
 
 Add a voice assistant to your application. With no or minimal changes to the existing UI.
 
