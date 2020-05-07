@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="app.alan.ionictest" version="62" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>AlanFoodDelivery</name>
     <description>Alan Food Delivery example application.</description>
     <author email="support@alan.app" href="http://alan.app/">Alan AI SDK Team</author>
@@ -41,11 +41,12 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <platform name="ios">
+        <preference name="deployment-target" value="11.0" />
         <preference name="WKWebViewOnly" value="true" />
         <feature name="CDVWKWebViewEngine">
             <param name="ios-package" value="CDVWKWebViewEngine" />
         </feature>
-        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />   
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
         <hook src="extend-build-phase.js" type="before_build" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
@@ -108,7 +109,6 @@
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="This app needs read/write-access photo library access" />
     </plugin>
     <plugin name="cordova-ios-plugin-no-export-compliance" spec="0.0.5" />
-    <engine name="ios" spec="5.0.0" />
     <engine name="browser" spec="5.0.4" />
     <engine name="android" spec="7.1.4" />
     <plugin name="cordova-plugin-alan-voice" spec="./../../plugins/cordova-plugin-alan" />
