@@ -12,3 +12,4 @@ gen
 out
 # Gradle builds
 /build
+/app/build
