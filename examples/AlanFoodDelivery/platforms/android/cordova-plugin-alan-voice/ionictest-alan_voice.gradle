@@ -1,0 +1,35 @@
+def AlanMavenRepo = "https://mymavenrepo.com/repo/fSCXIHAoBMWBdlZGqq6n/"
+
+repositories{
+  maven { url AlanMavenRepo }
+    maven {
+        url 'https://maven.google.com/'
+    }
+}
+
+dependencies {
+    implementation "app.alan:sdk:4.7.8"
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+
+android {
+
+}
+
+ext.postBuildExtras = {
+    android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+        allprojects {
+            compileOptions {
+                sourceCompatibility = JavaVersion.VERSION_1_8
+                targetCompatibility = JavaVersion.VERSION_1_8
+            }
+        }
+    }
+}
+
+ext.cdvVersionCode = 14
+ext.cdvMinSdkVersion = 21

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: app.alan:sdk:4.7.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

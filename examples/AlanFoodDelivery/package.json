@@ -28,7 +28,7 @@
     "@ionic-native/status-bar": "5.0.0",
     "@ionic/angular": "4.0.0",
     "@ionic/pro": "2.0.4",
-    "cordova-android": "7.1.4",
+    "cordova-android": "^7.1.4",
     "cordova-browser": "5.0.4",
     "cordova-ios": "^5.1.1",
     "cordova-ios-plugin-no-export-compliance": "0.0.5",
@@ -41,6 +41,7 @@
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
     "core-js": "^2.5.4",
+    "node-sass": "^4.14.1",
     "q": "^1.5.1",
     "rxjs": "~6.3.3",
     "sharp": "^0.25.2",
@@ -91,7 +92,9 @@
       "cordova-ios-plugin-no-export-compliance": {},
       "@alan-ai/cordova-plugin-alan-voice": {},
       "cordova-plugin-alan-voice": {},
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      }
     },
     "platforms": [
       "browser",
