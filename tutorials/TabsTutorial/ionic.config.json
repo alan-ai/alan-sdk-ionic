@@ -1,0 +1,7 @@
+{
+  "name": "ionic-v_6.9.3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
