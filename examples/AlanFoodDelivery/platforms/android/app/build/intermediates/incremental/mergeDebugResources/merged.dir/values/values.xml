@@ -208,294 +208,6 @@
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="white_transparent">#00ffffff</color>
-    <declare-styleable name="ActionBar"><attr name="navigationMode">
-            
-            <enum name="normal" value="0"/>
-            
-            <enum name="listMode" value="1"/>
-            
-            <enum name="tabMode" value="2"/>
-        </attr><attr name="displayOptions">
-            <flag name="none" value="0"/>
-            <flag name="useLogo" value="0x1"/>
-            <flag name="showHome" value="0x2"/>
-            <flag name="homeAsUp" value="0x4"/>
-            <flag name="showTitle" value="0x8"/>
-            <flag name="showCustom" value="0x10"/>
-            <flag name="disableHome" value="0x20"/>
-        </attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="contentInsetStartWithNavigation"/><attr format="dimension" name="contentInsetEndWithActions"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
-    <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
-    <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
-    <declare-styleable name="ActionMenuView"/>
-    <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
-    <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
-    <declare-styleable name="AlanButton"><attr format="boolean" name="show_hint"/><attr format="integer" name="button_horizontal_align">
-            <enum name="left" value="1"/>
-            <enum name="right" value="2"/>
-        </attr></declare-styleable>
-    <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/><attr format="boolean" name="showTitle"/><attr format="dimension" name="buttonIconDimen"/></declare-styleable>
-    <declare-styleable name="AnimatedStateListDrawableCompat"><attr name="android:visible"/><attr name="android:variablePadding"/><attr name="android:constantSize"/><attr name="android:dither"/><attr name="android:enterFadeDuration"/><attr name="android:exitFadeDuration"/></declare-styleable>
-    <declare-styleable name="AnimatedStateListDrawableItem"><attr name="android:drawable"/><attr name="android:id"/></declare-styleable>
-    <declare-styleable name="AnimatedStateListDrawableTransition"><attr name="android:fromId"/><attr name="android:toId"/><attr name="android:drawable"/><attr name="android:reversible"/></declare-styleable>
-    <declare-styleable name="AppCompatImageView"><attr name="android:src"/><attr format="reference" name="srcCompat"/><attr format="color" name="tint"/><attr name="tintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="AppCompatSeekBar"><attr name="android:thumb"/><attr format="reference" name="tickMark"/><attr format="color" name="tickMarkTint"/><attr name="tickMarkTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="AppCompatTextHelper"><attr name="android:drawableLeft"/><attr name="android:drawableTop"/><attr name="android:drawableRight"/><attr name="android:drawableBottom"/><attr name="android:drawableStart"/><attr name="android:drawableEnd"/><attr name="android:textAppearance"/></declare-styleable>
-    <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr format="string" name="textLocale"/><attr name="android:textAppearance"/><attr format="enum" name="autoSizeTextType">
-            
-            <enum name="none" value="0"/>
-            
-            <enum name="uniform" value="1"/>
-        </attr><attr format="dimension" name="autoSizeStepGranularity"/><attr format="reference" name="autoSizePresetSizes"/><attr format="dimension" name="autoSizeMinTextSize"/><attr format="dimension" name="autoSizeMaxTextSize"/><attr format="string" name="fontFamily"/><attr format="dimension" name="lineHeight"/><attr format="dimension" name="firstBaselineToTopHeight"/><attr format="dimension" name="lastBaselineToBottomHeight"/><attr format="string" name="fontVariationSettings"/><attr format="reference" name="drawableLeftCompat"/><attr format="reference" name="drawableTopCompat"/><attr format="reference" name="drawableRightCompat"/><attr format="reference" name="drawableBottomCompat"/><attr format="reference" name="drawableStartCompat"/><attr format="reference" name="drawableEndCompat"/><attr format="color" name="drawableTint"/><attr name="drawableTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
-            <enum name="wrap_content" value="0"/>
-        </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="dimension" name="dialogCornerRadius"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="dimension" name="listPreferredItemPaddingStart"/><attr format="dimension" name="listPreferredItemPaddingEnd"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSecondary"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/><attr format="reference" name="tooltipFrameBackground"/><attr format="reference|color" name="tooltipForegroundColor"/><attr format="reference|color" name="colorError"/><attr format="string" name="viewInflaterClass"/><attr format="reference" name="listChoiceIndicatorMultipleAnimated"/><attr format="reference" name="listChoiceIndicatorSingleAnimated"/></declare-styleable>
-    <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
-    <declare-styleable name="CodeScannerView"><attr format="color" name="maskColor"/><attr format="color" name="frameColor"/><attr format="color" name="autoFocusButtonColor"/><attr format="color" name="flashButtonColor"/><attr format="boolean" name="autoFocusButtonVisible"/><attr format="boolean" name="flashButtonVisible"/><attr format="dimension" name="frameThickness"/><attr format="dimension" name="frameCornersSize"/><attr format="dimension" name="frameCornersRadius"/><attr format="float" name="frameAspectRatioWidth"/><attr format="float" name="frameAspectRatioHeight"/><attr format="float" name="frameSize"/></declare-styleable>
-    <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
-    <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="reference" name="buttonCompat"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
-    <declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable>
-    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable>
-    <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
-    <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
-            
-            <flag name="top" value="0x30"/>
-            
-            <flag name="bottom" value="0x50"/>
-            
-            <flag name="left" value="0x03"/>
-            
-            <flag name="right" value="0x05"/>
-            
-            <flag name="center_vertical" value="0x10"/>
-            
-            <flag name="fill_vertical" value="0x70"/>
-            
-            <flag name="center_horizontal" value="0x01"/>
-            
-            <flag name="fill_horizontal" value="0x07"/>
-            
-            <flag name="center" value="0x11"/>
-            
-            <flag name="fill" value="0x77"/>
-            
-            <flag name="clip_vertical" value="0x80"/>
-            
-            <flag name="clip_horizontal" value="0x08"/>
-            
-            <flag name="start" value="0x00800003"/>
-            
-            <flag name="end" value="0x00800005"/>
-        </attr><attr format="enum" name="layout_insetEdge">
-            
-            <enum name="none" value="0x0"/>
-            
-            <enum name="top" value="0x30"/>
-            
-            <enum name="bottom" value="0x50"/>
-            
-            <enum name="left" value="0x03"/>
-            
-            <enum name="right" value="0x05"/>
-            
-            <enum name="start" value="0x00800003"/>
-            
-            <enum name="end" value="0x00800005"/>
-        </attr><attr name="layout_dodgeInsetEdges">
-            
-            <flag name="none" value="0x0"/>
-            
-            <flag name="top" value="0x30"/>
-            
-            <flag name="bottom" value="0x50"/>
-            
-            <flag name="left" value="0x03"/>
-            
-            <flag name="right" value="0x05"/>
-            
-            <flag name="start" value="0x00800003"/>
-            
-            <flag name="end" value="0x00800005"/>
-            
-            <flag name="all" value="0x77"/>
-        </attr></declare-styleable>
-    <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
-    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
-            
-            <enum name="blocking" value="0"/>
-            
-            <enum name="async" value="1"/>
-        </attr><attr format="integer" name="fontProviderFetchTimeout">
-            
-            <enum name="forever" value="-1"/>
-        </attr></declare-styleable>
-    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
-            <enum name="normal" value="0"/>
-            <enum name="italic" value="1"/>
-        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr format="string" name="fontVariationSettings"/><attr format="integer" name="ttcIndex"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/><attr name="android:fontVariationSettings"/><attr name="android:ttcIndex"/></declare-styleable>
-    <declare-styleable name="GradientColor"><attr name="android:startColor"/><attr name="android:centerColor"/><attr name="android:endColor"/><attr name="android:type"/><attr name="android:gradientRadius"/><attr name="android:centerX"/><attr name="android:centerY"/><attr name="android:startX"/><attr name="android:startY"/><attr name="android:endX"/><attr name="android:endY"/><attr name="android:tileMode"/></declare-styleable>
-    <declare-styleable name="GradientColorItem"><attr name="android:offset"/><attr name="android:color"/></declare-styleable>
-    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
-    <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
-            <flag name="none" value="0"/>
-            <flag name="beginning" value="1"/>
-            <flag name="middle" value="2"/>
-            <flag name="end" value="4"/>
-        </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
-    <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
-    <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
-    <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="alphabeticModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
-        </attr><attr name="android:numericShortcut"/><attr name="numericModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
-        </attr><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction">
-            
-            <flag name="never" value="0"/>
-            
-            <flag name="ifRoom" value="1"/>
-            
-            <flag name="always" value="2"/>
-            
-            <flag name="withText" value="4"/>
-            
-            <flag name="collapseActionView" value="8"/>
-        </attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/><attr format="string" name="contentDescription"/><attr format="string" name="tooltipText"/><attr format="color" name="iconTint"/><attr name="iconTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable>
-    <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable>
-    <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
-    <declare-styleable name="RecycleListView"><attr format="dimension" name="paddingBottomNoButtons"/><attr format="dimension" name="paddingTopNoTitle"/></declare-styleable>
-    <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
-    <declare-styleable name="StateListDrawable"><attr name="android:visible"/><attr name="android:variablePadding"/><attr name="android:constantSize"/><attr name="android:dither"/><attr name="android:enterFadeDuration"/><attr name="android:exitFadeDuration"/></declare-styleable>
-    <declare-styleable name="StateListDrawableItem"><attr name="android:drawable"/></declare-styleable>
-    <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr><attr format="reference" name="track"/><attr format="color" name="trackTint"/><attr name="trackTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
-    <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textColorHint"/><attr name="android:textColorLink"/><attr name="android:textStyle"/><attr name="android:textFontWeight"/><attr name="android:typeface"/><attr name="android:fontFamily"/><attr name="fontFamily"/><attr name="textAllCaps"/><attr name="textLocale"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/><attr name="fontVariationSettings"/></declare-styleable>
-    <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargin"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr format="dimension" name="titleMargins"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr name="contentInsetStartWithNavigation"/><attr name="contentInsetEndWithActions"/><attr format="dimension" name="maxButtonHeight"/><attr name="buttonGravity">
-            
-            <flag name="center_vertical" value="0x10"/>
-            
-            <flag name="top" value="0x30"/>
-            
-            <flag name="bottom" value="0x50"/>
-        </attr><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/><attr name="android:minHeight"/><attr format="reference" name="menu"/></declare-styleable>
-    <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
-    <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr></declare-styleable>
-    <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -2223,4 +1935,1557 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <declare-styleable name="ActionBar">
+        <!-- The type of navigation to use. -->
+        <attr name="navigationMode">
+            <!-- Normal static title text -->
+            <enum name="normal" value="0"/>
+            <!-- The action bar will use a selection list for navigation. -->
+            <enum name="listMode" value="1"/>
+            <!-- The action bar will use a series of horizontal tabs for navigation. -->
+            <enum name="tabMode" value="2"/>
+        </attr>
+        <!-- Options affecting how the action bar is displayed. -->
+        <attr name="displayOptions">
+            <flag name="none" value="0"/>
+            <flag name="useLogo" value="0x1"/>
+            <flag name="showHome" value="0x2"/>
+            <flag name="homeAsUp" value="0x4"/>
+            <flag name="showTitle" value="0x8"/>
+            <flag name="showCustom" value="0x10"/>
+            <flag name="disableHome" value="0x20"/>
+        </attr>
+        <!-- Specifies title text used for navigationMode="normal" -->
+        <attr name="title"/>
+        <!-- Specifies subtitle text used for navigationMode="normal" -->
+        <attr format="string" name="subtitle"/>
+        <!-- Specifies a style to use for title text. -->
+        <attr format="reference" name="titleTextStyle"/>
+        <!-- Specifies a style to use for subtitle text. -->
+        <attr format="reference" name="subtitleTextStyle"/>
+        <!-- Specifies the drawable used for the application icon. -->
+        <attr format="reference" name="icon"/>
+        <!-- Specifies the drawable used for the application logo. -->
+        <attr format="reference" name="logo"/>
+        <!-- Specifies the drawable used for item dividers. -->
+        <attr format="reference" name="divider"/>
+        <!-- Specifies a background drawable for the action bar. -->
+        <attr format="reference" name="background"/>
+        <!-- Specifies a background drawable for a second stacked row of the action bar. -->
+        <attr format="reference|color" name="backgroundStacked"/>
+        <!-- Specifies a background drawable for the bottom component of a split action bar. -->
+        <attr format="reference|color" name="backgroundSplit"/>
+        <!-- Specifies a layout for custom navigation. Overrides navigationMode. -->
+        <attr format="reference" name="customNavigationLayout"/>
+        <!-- Specifies a fixed height. -->
+        <attr name="height"/>
+        <!-- Specifies a layout to use for the "home" section of the action bar. -->
+        <attr format="reference" name="homeLayout"/>
+        <!-- Specifies a style resource to use for an embedded progress bar. -->
+        <attr format="reference" name="progressBarStyle"/>
+        <!-- Specifies a style resource to use for an indeterminate progress spinner. -->
+        <attr format="reference" name="indeterminateProgressStyle"/>
+        <!-- Specifies the horizontal padding on either end for an embedded progress bar. -->
+        <attr format="dimension" name="progressBarPadding"/>
+        <!-- Up navigation glyph -->
+        <attr name="homeAsUpIndicator"/>
+        <!-- Specifies padding that should be applied to the left and right sides of
+             system-provided items in the bar. -->
+        <attr format="dimension" name="itemPadding"/>
+        <!-- Set true to hide the action bar on a vertical nested scroll of content. -->
+        <attr format="boolean" name="hideOnContentScroll"/>
+        <!-- Minimum inset for content views within a bar. Navigation buttons and
+             menu views are excepted. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetStart"/>
+        <!-- Minimum inset for content views within a bar. Navigation buttons and
+             menu views are excepted. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetEnd"/>
+        <!-- Minimum inset for content views within a bar. Navigation buttons and
+             menu views are excepted. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetLeft"/>
+        <!-- Minimum inset for content views within a bar. Navigation buttons and
+             menu views are excepted. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetRight"/>
+        <!-- Minimum inset for content views within a bar when a navigation button
+             is present, such as the Up button. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetStartWithNavigation"/>
+        <!-- Minimum inset for content views within a bar when actions from a menu
+             are present. Only valid for some themes and configurations. -->
+        <attr format="dimension" name="contentInsetEndWithActions"/>
+        <!-- Elevation for the action bar itself -->
+        <attr format="dimension" name="elevation"/>
+        <!-- Reference to a theme that should be used to inflate popups
+             shown by widgets in the action bar. -->
+        <attr format="reference" name="popupTheme"/>
+    </declare-styleable>
+    <declare-styleable name="ActionBarLayout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+    <declare-styleable name="ActionMenuItemView">
+        <attr name="android:minWidth"/>
+    </declare-styleable>
+    <declare-styleable name="ActionMenuView">
+        <!-- Size of padding on either end of a divider. -->
+    </declare-styleable>
+    <declare-styleable name="ActionMode">
+        <!-- Specifies a style to use for title text. -->
+        <attr name="titleTextStyle"/>
+        <!-- Specifies a style to use for subtitle text. -->
+        <attr name="subtitleTextStyle"/>
+        <!-- Specifies a background for the action mode bar. -->
+        <attr name="background"/>
+        <!-- Specifies a background for the split action mode bar. -->
+        <attr name="backgroundSplit"/>
+        <!-- Specifies a fixed height for the action mode bar. -->
+        <attr name="height"/>
+        <!-- Specifies a layout to use for the "close" item at the starting edge. -->
+        <attr format="reference" name="closeItemLayout"/>
+    </declare-styleable>
+    <declare-styleable name="ActivityChooserView">
+        <!-- The maximal number of items initially shown in the activity list. -->
+        <attr format="string" name="initialActivityCount"/>
+        <!-- The drawable to show in the button for expanding the activities overflow popup.
+             <strong>Note:</strong> Clients would like to set this drawable
+             as a clue about the action the chosen activity will perform. For
+             example, if share activity is to be chosen the drawable should
+             give a clue that sharing is to be performed.
+         -->
+        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
+    </declare-styleable>
+    <declare-styleable name="AlanButton">
+        <attr format="boolean" name="show_hint"/>
+        <attr format="integer" name="button_horizontal_align">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AlertDialog">
+        <attr name="android:layout"/>
+        <attr format="reference" name="buttonPanelSideLayout"/>
+        <attr format="reference" name="listLayout"/>
+        <attr format="reference" name="multiChoiceItemLayout"/>
+        <attr format="reference" name="singleChoiceItemLayout"/>
+        <attr format="reference" name="listItemLayout"/>
+        <attr format="boolean" name="showTitle"/>
+        <attr format="dimension" name="buttonIconDimen"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableCompat">
+        <!-- Indicates whether the drawable should be initially visible. -->
+        <attr name="android:visible"/>
+        <!-- If true, allows the drawable's padding to change based on the
+             current state that is selected.  If false, the padding will
+             stay the same (based on the maximum padding of all the states).
+             Enabling this feature requires that the owner of the drawable
+             deal with performing layout when the state changes, which is
+             often not supported. -->
+        <attr name="android:variablePadding"/>
+        <!-- If true, the drawable's reported internal size will remain
+             constant as the state changes; the size is the maximum of all
+             of the states.  If false, the size will vary based on the
+             current state. -->
+        <attr name="android:constantSize"/>
+        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
+             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
+             an RGB 565 screen). -->
+        <attr name="android:dither"/>
+        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
+        <attr name="android:enterFadeDuration"/>
+        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
+        <attr name="android:exitFadeDuration"/>
+        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
+             RTL (right-to-left). -->
+        <!--<attr name="autoMirrored"/>-->
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableItem">
+        <!-- Reference to a drawable resource to use for the frame.  If not
+             given, the drawable must be defined by the first child tag. -->
+        <attr name="android:drawable"/>
+        <!-- Keyframe identifier for use in specifying transitions. -->
+        <attr name="android:id"/>
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableTransition">
+        <!-- Keyframe identifier for the starting state. -->
+        <attr name="android:fromId"/>
+        <!-- Keyframe identifier for the ending state. -->
+        <attr name="android:toId"/>
+        <!-- Reference to a animation drawable resource to use for the frame.  If not
+             given, the animation drawable must be defined by the first child tag. -->
+        <attr name="android:drawable"/>
+        <!-- Whether this transition is reversible. -->
+        <attr name="android:reversible"/>
+    </declare-styleable>
+    <declare-styleable name="AppCompatImageView">
+        <attr name="android:src"/>
+        <!-- Sets a drawable as the content of this ImageView. Allows the use of vector drawable
+             when running on older versions of the platform. -->
+        <attr format="reference" name="srcCompat"/>
+
+        <!-- Tint to apply to the image source. -->
+        <attr format="color" name="tint"/>
+
+        <!-- Blending mode used to apply the image source tint. -->
+        <attr name="tintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AppCompatSeekBar">
+        <attr name="android:thumb"/>
+        <!-- Drawable displayed at each progress position on a seekbar. -->
+        <attr format="reference" name="tickMark"/>
+        <!-- Tint to apply to the tick mark drawable. -->
+        <attr format="color" name="tickMarkTint"/>
+        <!-- Blending mode used to apply the tick mark tint. -->
+        <attr name="tickMarkTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AppCompatTextHelper">
+        <attr name="android:drawableLeft"/>
+        <attr name="android:drawableTop"/>
+        <attr name="android:drawableRight"/>
+        <attr name="android:drawableBottom"/>
+        <attr name="android:drawableStart"/>
+        <attr name="android:drawableEnd"/>
+        <attr name="android:textAppearance"/>
+    </declare-styleable>
+    <declare-styleable name="AppCompatTextView">
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr format="reference|boolean" name="textAllCaps"/>
+        <!-- Set the textLocale by a comma-separated language tag string,
+             for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
+             Before API 24, only the first language tag is used. Starting from API 24,
+             the string will be converted into a {@link android.os.LocaleList} and then used by
+             {@link android.widget.TextView} -->
+        <attr format="string" name="textLocale"/>
+        <attr name="android:textAppearance"/>
+        <!-- Specify the type of auto-size. Note that this feature is not supported by EditText,
+        works only for TextView. -->
+        <attr format="enum" name="autoSizeTextType">
+            <!-- No auto-sizing (default). -->
+            <enum name="none" value="0"/>
+            <!-- Uniform horizontal and vertical text size scaling to fit within the
+            container. -->
+            <enum name="uniform" value="1"/>
+        </attr>
+        <!-- Specify the auto-size step size if <code>autoSizeTextType</code> is set to
+        <code>uniform</code>. The default is 1px. Overwrites
+        <code>autoSizePresetSizes</code> if set. -->
+        <attr format="dimension" name="autoSizeStepGranularity"/>
+        <!-- Resource array of dimensions to be used in conjunction with
+        <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
+        <code>autoSizeStepGranularity</code> if set. -->
+        <attr format="reference" name="autoSizePresetSizes"/>
+        <!-- The minimum text size constraint to be used when auto-sizing text. -->
+        <attr format="dimension" name="autoSizeMinTextSize"/>
+        <!-- The maximum text size constraint to be used when auto-sizing text. -->
+        <attr format="dimension" name="autoSizeMaxTextSize"/>
+        <!-- The attribute for the font family. -->
+        <attr format="string" name="fontFamily"/>
+        <!-- Explicit height between lines of text. If set, this will override the values set
+             for lineSpacingExtra and lineSpacingMultiplier. -->
+        <attr format="dimension" name="lineHeight"/>
+        <!-- Distance from the top of the TextView to the first text baseline. If set, this
+             overrides the value set for paddingTop. -->
+        <attr format="dimension" name="firstBaselineToTopHeight"/>
+        <!-- Distance from the bottom of the TextView to the last text baseline. If set, this
+             overrides the value set for paddingBottom. -->
+        <attr format="dimension" name="lastBaselineToBottomHeight"/>
+        <!-- OpenType font variation settings, available after api 26. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- Compound drawables allowing the use of vector drawable when running on older versions
+             of the platform. -->
+        <attr format="reference" name="drawableLeftCompat"/>
+        <attr format="reference" name="drawableTopCompat"/>
+        <attr format="reference" name="drawableRightCompat"/>
+        <attr format="reference" name="drawableBottomCompat"/>
+        <attr format="reference" name="drawableStartCompat"/>
+        <attr format="reference" name="drawableEndCompat"/>
+        <!-- Tint to apply to the compound (left, top, etc.) drawables. -->
+        <attr format="color" name="drawableTint"/>
+        <!-- Blending mode used to apply the compound (left, top, etc.) drawables tint. -->
+        <attr name="drawableTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AppCompatTheme">
+
+        <!-- ============= -->
+        <!-- Window styles -->
+        <!-- ============= -->
+        <eat-comment/>
+
+        <!-- Flag indicating whether this window should have an Action Bar
+             in place of the usual title bar. -->
+        <attr format="boolean" name="windowActionBar"/>
+
+        <!-- Flag indicating whether there should be no title on this window. -->
+        <attr format="boolean" name="windowNoTitle"/>
+
+        <!-- Flag indicating whether this window's Action Bar should overlay
+             application content. Does nothing if the window would not
+             have an Action Bar. -->
+        <attr format="boolean" name="windowActionBarOverlay"/>
+
+        <!-- Flag indicating whether action modes should overlay window content
+             when there is not reserved space for their UI (such as an Action Bar). -->
+        <attr format="boolean" name="windowActionModeOverlay"/>
+
+        <!-- A fixed width for the window along the major axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. -->
+        <attr format="dimension|fraction" name="windowFixedWidthMajor"/>
+        <!-- A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. -->
+        <attr format="dimension|fraction" name="windowFixedHeightMinor"/>
+
+        <!-- A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. -->
+        <attr format="dimension|fraction" name="windowFixedWidthMinor"/>
+        <!-- A fixed height for the window along the major axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension. -->
+        <attr format="dimension|fraction" name="windowFixedHeightMajor"/>
+
+        <!-- The minimum width the window is allowed to be, along the major
+             axis of the screen.  That is, when in landscape.  Can be either
+             an absolute dimension or a fraction of the screen size in that
+             dimension. -->
+        <attr format="dimension|fraction" name="windowMinWidthMajor"/>
+        <!-- The minimum width the window is allowed to be, along the minor
+             axis of the screen.  That is, when in portrait.  Can be either
+             an absolute dimension or a fraction of the screen size in that
+             dimension. -->
+        <attr format="dimension|fraction" name="windowMinWidthMinor"/>
+
+        <attr name="android:windowIsFloating"/>
+        <attr name="android:windowAnimationStyle"/>
+
+        <!-- =================== -->
+        <!-- Action bar styles   -->
+        <!-- =================== -->
+        <eat-comment/>
+        <!-- Default style for tabs within an action bar -->
+        <attr format="reference" name="actionBarTabStyle"/>
+        <attr format="reference" name="actionBarTabBarStyle"/>
+        <attr format="reference" name="actionBarTabTextStyle"/>
+        <attr format="reference" name="actionOverflowButtonStyle"/>
+        <attr format="reference" name="actionOverflowMenuStyle"/>
+        <!-- Reference to a theme that should be used to inflate popups
+             shown by widgets in the action bar. -->
+        <attr format="reference" name="actionBarPopupTheme"/>
+        <!-- Reference to a style for the Action Bar -->
+        <attr format="reference" name="actionBarStyle"/>
+        <!-- Reference to a style for the split Action Bar. This style
+             controls the split component that holds the menu/action
+             buttons. actionBarStyle is still used for the primary
+             bar. -->
+        <attr format="reference" name="actionBarSplitStyle"/>
+        <!-- Reference to a theme that should be used to inflate the
+             action bar. This will be inherited by any widget inflated
+             into the action bar. -->
+        <attr format="reference" name="actionBarTheme"/>
+        <!-- Reference to a theme that should be used to inflate widgets
+             and layouts destined for the action bar. Most of the time
+             this will be a reference to the current theme, but when
+             the action bar has a significantly different contrast
+             profile than the rest of the activity the difference
+             can become important. If this is set to @null the current
+             theme will be used.-->
+        <attr format="reference" name="actionBarWidgetTheme"/>
+        <!-- Size of the Action Bar, including the contextual
+             bar used to present Action Modes. -->
+        <attr format="dimension" name="actionBarSize">
+            <enum name="wrap_content" value="0"/>
+        </attr>
+        <!-- Custom divider drawable to use for elements in the action bar. -->
+        <attr format="reference" name="actionBarDivider"/>
+        <!-- Custom item state list drawable background for action bar items. -->
+        <attr format="reference" name="actionBarItemBackground"/>
+        <!-- TextAppearance style that will be applied to text that
+             appears within action menu items. -->
+        <attr format="reference" name="actionMenuTextAppearance"/>
+        <!-- Color for text that appears within action menu items. -->
+        <!-- Color for text that appears within action menu items. -->
+        <attr format="color|reference" name="actionMenuTextColor"/>
+
+
+        <!-- =================== -->
+        <!-- Action mode styles  -->
+        <!-- =================== -->
+        <eat-comment/>
+        <attr format="reference" name="actionModeStyle"/>
+        <attr format="reference" name="actionModeCloseButtonStyle"/>
+        <!-- Background drawable to use for action mode UI -->
+        <attr format="reference" name="actionModeBackground"/>
+        <!-- Background drawable to use for action mode UI in the lower split bar -->
+        <attr format="reference" name="actionModeSplitBackground"/>
+        <!-- Drawable to use for the close action mode button -->
+        <attr format="reference" name="actionModeCloseDrawable"/>
+        <!-- Drawable to use for the Cut action button in Contextual Action Bar -->
+        <attr format="reference" name="actionModeCutDrawable"/>
+        <!-- Drawable to use for the Copy action button in Contextual Action Bar -->
+        <attr format="reference" name="actionModeCopyDrawable"/>
+        <!-- Drawable to use for the Paste action button in Contextual Action Bar -->
+        <attr format="reference" name="actionModePasteDrawable"/>
+        <!-- Drawable to use for the Select all action button in Contextual Action Bar -->
+        <attr format="reference" name="actionModeSelectAllDrawable"/>
+        <!-- Drawable to use for the Share action button in WebView selection action modes -->
+        <attr format="reference" name="actionModeShareDrawable"/>
+        <!-- Drawable to use for the Find action button in WebView selection action modes -->
+        <attr format="reference" name="actionModeFindDrawable"/>
+        <!-- Drawable to use for the Web Search action button in WebView selection action modes -->
+        <attr format="reference" name="actionModeWebSearchDrawable"/>
+
+        <!-- PopupWindow style to use for action modes when showing as a window overlay. -->
+        <attr format="reference" name="actionModePopupWindowStyle"/>
+
+
+        <!-- =================== -->
+        <!-- Text styles -->
+        <!-- =================== -->
+        <eat-comment/>
+        <!-- Text color, typeface, size, and style for the text inside of a popup menu. -->
+        <attr format="reference" name="textAppearanceLargePopupMenu"/>
+        <!-- Text color, typeface, size, and style for small text inside of a popup menu. -->
+        <attr format="reference" name="textAppearanceSmallPopupMenu"/>
+        <!-- Text color, typeface, size, and style for header text inside of a popup menu. -->
+        <attr format="reference" name="textAppearancePopupMenuHeader"/>
+
+
+        <!-- =================== -->
+        <!-- Dialog styles -->
+        <!-- =================== -->
+        <eat-comment/>
+
+        <!-- Theme to use for dialogs spawned from this theme. -->
+        <attr format="reference" name="dialogTheme"/>
+        <!-- Preferred padding for dialog content. -->
+        <attr format="dimension" name="dialogPreferredPadding"/>
+        <!-- The list divider used in alert dialogs. -->
+        <attr format="reference" name="listDividerAlertDialog"/>
+        <!-- Preferred corner radius of dialogs. -->
+        <attr format="dimension" name="dialogCornerRadius"/>
+
+        <!-- =================== -->
+        <!-- Other widget styles -->
+        <!-- =================== -->
+        <eat-comment/>
+
+        <!-- Default ActionBar dropdown style. -->
+        <attr format="reference" name="actionDropDownStyle"/>
+        <!-- The preferred item height for dropdown lists. -->
+        <attr format="dimension" name="dropdownListPreferredItemHeight"/>
+        <!-- Default Spinner style. -->
+        <attr format="reference" name="spinnerDropDownItemStyle"/>
+        <!-- Specifies a drawable to use for the 'home as up' indicator. -->
+        <attr format="reference" name="homeAsUpIndicator"/>
+
+        <!-- Default action button style. -->
+        <attr format="reference" name="actionButtonStyle"/>
+
+        <!-- Style for button bars -->
+        <attr format="reference" name="buttonBarStyle"/>
+        <!-- Style for buttons within button bars -->
+        <attr format="reference" name="buttonBarButtonStyle"/>
+        <!-- A style that may be applied to buttons or other selectable items
+             that should react to pressed and focus states, but that do not
+             have a clear visual border along the edges. -->
+        <attr format="reference" name="selectableItemBackground"/>
+        <!-- Background drawable for borderless standalone items that need focus/pressed states. -->
+        <attr format="reference" name="selectableItemBackgroundBorderless"/>
+        <!-- Style for buttons without an explicit border, often used in groups. -->
+        <attr format="reference" name="borderlessButtonStyle"/>
+        <!-- A drawable that may be used as a vertical divider between visual elements. -->
+        <attr format="reference" name="dividerVertical"/>
+        <!-- A drawable that may be used as a horizontal divider between visual elements. -->
+        <attr format="reference" name="dividerHorizontal"/>
+        <!-- Default ActivityChooserView style. -->
+        <attr format="reference" name="activityChooserViewStyle"/>
+
+        <!-- Default Toolbar style. -->
+        <attr format="reference" name="toolbarStyle"/>
+        <!-- Default Toolar NavigationButtonStyle -->
+        <attr format="reference" name="toolbarNavigationButtonStyle"/>
+
+        <!-- Default PopupMenu style. -->
+        <attr format="reference" name="popupMenuStyle"/>
+        <!-- Default PopupWindow style. -->
+        <attr format="reference" name="popupWindowStyle"/>
+
+        <!-- EditText text foreground color. -->
+        <attr format="reference|color" name="editTextColor"/>
+        <!-- EditText background drawable. -->
+        <attr format="reference" name="editTextBackground"/>
+
+        <!-- ImageButton background drawable. -->
+        <attr format="reference" name="imageButtonStyle"/>
+
+        <!-- ============================ -->
+        <!-- SearchView styles and assets -->
+        <!-- ============================ -->
+        <eat-comment/>
+        <!-- Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color. -->
+        <attr format="reference" name="textAppearanceSearchResultTitle"/>
+        <!-- Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color. -->
+        <attr format="reference" name="textAppearanceSearchResultSubtitle"/>
+        <!-- Text color for urls in search suggestions, used by things like global search -->
+        <attr format="reference|color" name="textColorSearchUrl"/>
+        <!-- Style for the search query widget. -->
+        <attr format="reference" name="searchViewStyle"/>
+
+        <!-- =========== -->
+        <!-- List styles -->
+        <!-- =========== -->
+        <eat-comment/>
+
+        <!-- The preferred list item height. -->
+        <attr format="dimension" name="listPreferredItemHeight"/>
+        <!-- A smaller, sleeker list item height. -->
+        <attr format="dimension" name="listPreferredItemHeightSmall"/>
+        <!-- A larger, more robust list item height. -->
+        <attr format="dimension" name="listPreferredItemHeightLarge"/>
+
+        <!-- The preferred padding along the left edge of list items. -->
+        <attr format="dimension" name="listPreferredItemPaddingLeft"/>
+        <!-- The preferred padding along the right edge of list items. -->
+        <attr format="dimension" name="listPreferredItemPaddingRight"/>
+
+        <!-- The preferred padding along the start edge of list items. -->
+        <attr format="dimension" name="listPreferredItemPaddingStart"/>
+        <!-- The preferred padding along the end edge of list items. -->
+        <attr format="dimension" name="listPreferredItemPaddingEnd"/>
+
+        <!-- ListPopupWindow compatibility -->
+        <attr format="reference" name="dropDownListViewStyle"/>
+        <attr format="reference" name="listPopupWindowStyle"/>
+
+        <!-- The preferred TextAppearance for the primary text of list items. -->
+        <attr format="reference" name="textAppearanceListItem"/>
+        <!-- The preferred TextAppearance for the secondary text of list items. -->
+        <attr format="reference" name="textAppearanceListItemSecondary"/>
+        <!-- The preferred TextAppearance for the primary text of small list items. -->
+        <attr format="reference" name="textAppearanceListItemSmall"/>
+
+        <!-- ============ -->
+        <!-- Panel styles -->
+        <!-- ============ -->
+        <eat-comment/>
+
+        <!-- The background of a panel when it is inset from the left and right edges of the screen. -->
+        <attr format="reference" name="panelBackground"/>
+        <!-- Default Panel Menu width. -->
+        <attr format="dimension" name="panelMenuListWidth"/>
+        <!-- Default Panel Menu style. -->
+        <attr format="reference" name="panelMenuListTheme"/>
+        <!-- Drawable used as a background for selected list items. -->
+        <attr format="reference" name="listChoiceBackgroundIndicator"/>
+
+        <!-- ============= -->
+        <!-- Color palette -->
+        <!-- ============= -->
+        <eat-comment/>
+
+        <!-- The primary branding color for the app. By default, this is the color applied to the
+             action bar background. -->
+        <attr format="color" name="colorPrimary"/>
+
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+             the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <attr format="color" name="colorPrimaryDark"/>
+
+        <!-- Bright complement to the primary branding color. By default, this is the color applied
+             to framework controls (via colorControlActivated). -->
+        <attr format="color" name="colorAccent"/>
+
+        <!-- The color applied to framework controls in their normal state. -->
+        <attr format="color" name="colorControlNormal"/>
+
+        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        <attr format="color" name="colorControlActivated"/>
+
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        <attr format="color" name="colorControlHighlight"/>
+
+        <!-- The color applied to framework buttons in their normal state. -->
+        <attr format="color" name="colorButtonNormal"/>
+
+        <!-- The color applied to framework switch thumbs in their normal state. -->
+        <attr format="color" name="colorSwitchThumbNormal"/>
+
+        <!-- The background used by framework controls. -->
+        <attr format="reference" name="controlBackground"/>
+
+        <!-- Default color of background imagery for floating components, ex. dialogs, popups, and cards. -->
+        <attr format="color" name="colorBackgroundFloating"/>
+
+        <!-- ============ -->
+        <!-- Alert Dialog styles -->
+        <!-- ============ -->
+        <eat-comment/>
+        <attr format="reference" name="alertDialogStyle"/>
+        <attr format="reference" name="alertDialogButtonGroupStyle"/>
+        <attr format="boolean" name="alertDialogCenterButtons"/>
+        <!-- Theme to use for alert dialogs spawned from this theme. -->
+        <attr format="reference" name="alertDialogTheme"/>
+
+        <!-- Color of list item text in alert dialogs. -->
+        <attr format="reference|color" name="textColorAlertDialogListItem"/>
+
+        <!-- Style for the "positive" buttons within button bars -->
+        <attr format="reference" name="buttonBarPositiveButtonStyle"/>
+
+        <!-- Style for the "negative" buttons within button bars -->
+        <attr format="reference" name="buttonBarNegativeButtonStyle"/>
+
+        <!-- Style for the "neutral" buttons within button bars -->
+        <attr format="reference" name="buttonBarNeutralButtonStyle"/>
+
+        <!-- ===================== -->
+        <!-- Default widget styles -->
+        <!-- ===================== -->
+        <eat-comment/>
+
+        <!-- Default AutoCompleteTextView style. -->
+        <attr format="reference" name="autoCompleteTextViewStyle"/>
+        <!-- Normal Button style. -->
+        <attr format="reference" name="buttonStyle"/>
+        <!-- Small Button style. -->
+        <attr format="reference" name="buttonStyleSmall"/>
+        <!-- Default Checkbox style. -->
+        <attr format="reference" name="checkboxStyle"/>
+        <!-- Default CheckedTextView style. -->
+        <attr format="reference" name="checkedTextViewStyle"/>
+        <!-- Default EditText style. -->
+        <attr format="reference" name="editTextStyle"/>
+        <!-- Default RadioButton style. -->
+        <attr format="reference" name="radioButtonStyle"/>
+        <!-- Default RatingBar style. -->
+        <attr format="reference" name="ratingBarStyle"/>
+        <!-- Indicator RatingBar style. -->
+        <attr format="reference" name="ratingBarStyleIndicator"/>
+        <!-- Small indicator RatingBar style. -->
+        <attr format="reference" name="ratingBarStyleSmall"/>
+        <!-- Default SeekBar style. -->
+        <attr format="reference" name="seekBarStyle"/>
+        <!-- Default Spinner style. -->
+        <attr format="reference" name="spinnerStyle"/>
+        <!-- Default style for the Switch widget. -->
+        <attr format="reference" name="switchStyle"/>
+
+        <!-- Default menu-style ListView style. -->
+        <attr format="reference" name="listMenuViewStyle"/>
+
+        <!-- ===================== -->
+        <!-- Tooltip styles -->
+        <!-- ===================== -->
+        <eat-comment/>
+
+        <!-- Background to use for tooltips -->
+        <attr format="reference" name="tooltipFrameBackground"/>
+        <!-- Foreground color to use for tooltips -->
+        <attr format="reference|color" name="tooltipForegroundColor"/>
+
+        <!-- Color used for error states and things that need to be drawn to
+             the user's attention. -->
+        <attr format="reference|color" name="colorError"/>
+
+        <attr format="string" name="viewInflaterClass"/>
+
+        <!-- ===================== -->
+        <!-- Animated list choice indicators -->
+        <!-- ===================== -->
+        <eat-comment/>
+
+        <!-- Animated Drawable to use for single choice indicators. -->
+        <attr format="reference" name="listChoiceIndicatorMultipleAnimated"/>
+        <!-- Animated Drawable to use for multiple choice indicators. -->
+        <attr format="reference" name="listChoiceIndicatorSingleAnimated"/>
+
+    </declare-styleable>
+    <declare-styleable name="ButtonBarLayout">
+        <!-- Whether to automatically stack the buttons when there is not
+             enough space to lay them out side-by-side. -->
+        <attr format="boolean" name="allowStacking"/>
+    </declare-styleable>
+    <declare-styleable name="CodeScannerView">
+        <attr format="color" name="maskColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="autoFocusButtonColor"/>
+        <attr format="color" name="flashButtonColor"/>
+        <attr format="boolean" name="autoFocusButtonVisible"/>
+        <attr format="boolean" name="flashButtonVisible"/>
+        <attr format="dimension" name="frameThickness"/>
+        <attr format="dimension" name="frameCornersSize"/>
+        <attr format="dimension" name="frameCornersRadius"/>
+        <attr format="float" name="frameAspectRatioWidth"/>
+        <attr format="float" name="frameAspectRatioHeight"/>
+        <attr format="float" name="frameSize"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button"/>
+        <!-- Compat attr to load backported drawable types -->
+        <attr format="reference" name="buttonCompat"/>
+        <!-- Tint to apply to the button drawable. -->
+        <attr format="color" name="buttonTint"/>
+
+        <!-- Blending mode used to apply the button tint. -->
+        <attr name="buttonTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
+    <declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable>
+    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable>
+    <declare-styleable name="CoordinatorLayout">
+        <!-- A reference to an array of integers representing the
+             locations of horizontal keylines in dp from the starting edge.
+             Child views can refer to these keylines for alignment using
+             layout_keyline="index" where index is a 0-based index into
+             this array. -->
+        <attr format="reference" name="keylines"/>
+        <!-- Drawable to display behind the status bar when the view is set to draw behind it. -->
+        <attr format="color|reference" name="statusBarBackground"/>
+    </declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout">
+        <attr name="android:layout_gravity"/>
+        <!-- The class name of a Behavior class defining special runtime behavior
+             for this child view. -->
+        <attr format="string" name="layout_behavior"/>
+        <!-- The id of an anchor view that this view should position relative to. -->
+        <attr format="reference" name="layout_anchor"/>
+        <!-- The index of a keyline this view should position relative to.
+             android:layout_gravity will affect how the view aligns to the
+             specified keyline. -->
+        <attr format="integer" name="layout_keyline"/>
+
+        <!-- Specifies how an object should position relative to an anchor, on both the X and Y axes,
+             within its parent's bounds.  -->
+        <attr name="layout_anchorGravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+        <!-- Specifies how this view insets the CoordinatorLayout and make some other views
+             dodge it. -->
+        <attr format="enum" name="layout_insetEdge">
+            <!-- Don't inset. -->
+            <enum name="none" value="0x0"/>
+            <!-- Inset the top edge. -->
+            <enum name="top" value="0x30"/>
+            <!-- Inset the bottom edge. -->
+            <enum name="bottom" value="0x50"/>
+            <!-- Inset the left edge. -->
+            <enum name="left" value="0x03"/>
+            <!-- Inset the right edge. -->
+            <enum name="right" value="0x05"/>
+            <!-- Inset the start edge. -->
+            <enum name="start" value="0x00800003"/>
+            <!-- Inset the end edge. -->
+            <enum name="end" value="0x00800005"/>
+        </attr>
+        <!-- Specifies how this view dodges the inset edges of the CoordinatorLayout. -->
+        <attr name="layout_dodgeInsetEdges">
+            <!-- Don't dodge any edges -->
+            <flag name="none" value="0x0"/>
+            <!-- Dodge the top inset edge. -->
+            <flag name="top" value="0x30"/>
+            <!-- Dodge the bottom inset edge. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Dodge the left inset edge. -->
+            <flag name="left" value="0x03"/>
+            <!-- Dodge the right inset edge. -->
+            <flag name="right" value="0x05"/>
+            <!-- Dodge the start inset edge. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Dodge the end inset edge. -->
+            <flag name="end" value="0x00800005"/>
+            <!-- Dodge all the inset edges. -->
+            <flag name="all" value="0x77"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DrawerArrowToggle">
+        <!-- The drawing color for the bars -->
+        <attr format="color" name="color"/>
+        <!-- Whether bars should rotate or not during transition -->
+        <attr format="boolean" name="spinBars"/>
+        <!-- The total size of the drawable -->
+        <attr format="dimension" name="drawableSize"/>
+        <!-- The max gap between the bars when they are parallel to each other -->
+        <attr format="dimension" name="gapBetweenBars"/>
+        <!-- The length of the arrow head when formed to make an arrow -->
+        <attr format="dimension" name="arrowHeadLength"/>
+        <!-- The length of the shaft when formed to make an arrow -->
+        <attr format="dimension" name="arrowShaftLength"/>
+        <!-- The length of the bars when they are parallel to each other -->
+        <attr format="dimension" name="barLength"/>
+        <!-- The thickness (stroke size) for the bar paint -->
+        <attr format="dimension" name="thickness"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
+    <declare-styleable name="LinearLayoutCompat">
+        <!-- Should the layout be a column or a row?  Use "horizontal"
+             for a row, "vertical" for a column.  The default is
+             horizontal. -->
+        <attr name="android:orientation"/>
+        <attr name="android:gravity"/>
+        <!-- When set to false, prevents the layout from aligning its children's
+             baselines. This attribute is particularly useful when the children
+             use different values for gravity. The default value is true. -->
+        <attr name="android:baselineAligned"/>
+        <!-- When a linear layout is part of another layout that is baseline
+          aligned, it can specify which of its children to baseline align to
+          (that is, which child TextView).-->
+        <attr name="android:baselineAlignedChildIndex"/>
+        <!-- Defines the maximum weight sum. If unspecified, the sum is computed
+             by adding the layout_weight of all of the children. This can be
+             used for instance to give a single child 50% of the total available
+             space by giving it a layout_weight of 0.5 and setting the weightSum
+             to 1.0. -->
+        <attr name="android:weightSum"/>
+        <!-- When set to true, all children with a weight will be considered having
+             the minimum size of the largest child. If false, all children are
+             measured normally. -->
+        <attr format="boolean" name="measureWithLargestChild"/>
+        <!-- Drawable to use as a vertical divider between buttons. -->
+        <attr name="divider"/>
+        <!-- Setting for which dividers to show. -->
+        <attr name="showDividers">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <!-- Size of padding on either end of a divider. -->
+        <attr format="dimension" name="dividerPadding"/>
+    </declare-styleable>
+    <declare-styleable name="LinearLayoutCompat_Layout">
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <attr name="android:layout_weight"/>
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+    <declare-styleable name="ListPopupWindow">
+        <!-- Amount of pixels by which the drop down should be offset vertically. -->
+        <attr name="android:dropDownVerticalOffset"/>
+        <!-- Amount of pixels by which the drop down should be offset horizontally. -->
+        <attr name="android:dropDownHorizontalOffset"/>
+    </declare-styleable>
+    <declare-styleable name="MenuGroup">
+
+        <!-- The ID of the group. -->
+        <attr name="android:id"/>
+
+        <!-- The category applied to all items within this group.
+             (This will be or'ed with the orderInCategory attribute.) -->
+        <attr name="android:menuCategory"/>
+
+        <!-- The order within the category applied to all items within this group.
+             (This will be or'ed with the category attribute.) -->
+        <attr name="android:orderInCategory"/>
+
+        <!-- Whether the items are capable of displaying a check mark. -->
+        <attr name="android:checkableBehavior"/>
+
+        <!-- Whether the items are shown/visible. -->
+        <attr name="android:visible"/>
+
+        <!-- Whether the items are enabled. -->
+        <attr name="android:enabled"/>
+
+    </declare-styleable>
+    <declare-styleable name="MenuItem">
+
+        <!-- The ID of the item. -->
+        <attr name="android:id"/>
+
+        <!-- The category applied to the item.
+             (This will be or'ed with the orderInCategory attribute.) -->
+        <attr name="android:menuCategory"/>
+
+        <!-- The order within the category applied to the item.
+             (This will be or'ed with the category attribute.) -->
+        <attr name="android:orderInCategory"/>
+
+        <!-- The title associated with the item. -->
+        <attr name="android:title"/>
+
+        <!-- The condensed title associated with the item.  This is used in situations where the
+             normal title may be too long to be displayed. -->
+        <attr name="android:titleCondensed"/>
+
+        <!-- The icon associated with this item.  This icon will not always be shown, so
+             the title should be sufficient in describing this item. -->
+        <attr name="android:icon"/>
+
+        <!-- The alphabetic shortcut key.  This is the shortcut when using a keyboard
+             with alphabetic keys. -->
+        <attr name="android:alphabeticShortcut"/>
+
+        <!-- The alphabetic modifier key. This is the modifier when using a keyboard
+            with alphabetic keys. The values should be kept in sync with KeyEvent -->
+        <attr name="alphabeticModifiers">
+            <flag name="META" value="0x10000"/>
+            <flag name="CTRL" value="0x1000"/>
+            <flag name="ALT" value="0x02"/>
+            <flag name="SHIFT" value="0x1"/>
+            <flag name="SYM" value="0x4"/>
+            <flag name="FUNCTION" value="0x8"/>
+        </attr>
+
+        <!-- The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
+             keyboard. -->
+        <attr name="android:numericShortcut"/>
+
+        <!-- The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
+            keyboard. The values should be kept in sync with KeyEvent -->
+        <attr name="numericModifiers">
+            <flag name="META" value="0x10000"/>
+            <flag name="CTRL" value="0x1000"/>
+            <flag name="ALT" value="0x02"/>
+            <flag name="SHIFT" value="0x1"/>
+            <flag name="SYM" value="0x4"/>
+            <flag name="FUNCTION" value="0x8"/>
+        </attr>
+
+        <!-- Whether the item is capable of displaying a check mark. -->
+        <attr name="android:checkable"/>
+
+        <!-- Whether the item is checked.  Note that you must first have enabled checking with
+             the checkable attribute or else the check mark will not appear. -->
+        <attr name="android:checked"/>
+
+        <!-- Whether the item is shown/visible. -->
+        <attr name="android:visible"/>
+
+        <!-- Whether the item is enabled. -->
+        <attr name="android:enabled"/>
+
+        <!-- Name of a method on the Context used to inflate the menu that will be
+             called when the item is clicked. -->
+        <attr name="android:onClick"/>
+
+        <!-- How this item should display in the Action Bar, if present. -->
+        <attr name="showAsAction">
+            <!-- Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". -->
+            <flag name="never" value="0"/>
+            <!-- Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". -->
+            <flag name="ifRoom" value="1"/>
+            <!-- Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
+            <flag name="always" value="2"/>
+            <!-- When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. -->
+            <flag name="withText" value="4"/>
+            <!-- This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. -->
+            <flag name="collapseActionView" value="8"/>
+        </attr>
+
+        <!-- An optional layout to be used as an action view.
+             See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. -->
+        <attr format="reference" name="actionLayout"/>
+
+        <!-- The name of an optional View class to instantiate and use as an
+             action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info. -->
+        <attr format="string" name="actionViewClass"/>
+
+        <!-- The name of an optional ActionProvider class to instantiate an action view
+             and perform operations such as default action for that menu item.
+             See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
+             for more info. -->
+        <attr format="string" name="actionProviderClass"/>
+
+        <!-- The content description associated with the item. -->
+        <attr format="string" name="contentDescription"/>
+
+        <!-- The tooltip text associated with the item. -->
+        <attr format="string" name="tooltipText"/>
+
+        <!-- Tint to apply to the icon. -->
+        <attr format="color" name="iconTint"/>
+
+        <!-- Blending mode used to apply the icon tint. -->
+        <attr name="iconTintMode">
+            <!-- The tint is drawn on top of the icon.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the icon. The icon’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the icon, but with the icon’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the icon with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="MenuView">
+        <!-- Default appearance of menu item text. -->
+        <attr name="android:itemTextAppearance"/>
+        <!-- Default horizontal divider between rows of menu items. -->
+        <attr name="android:horizontalDivider"/>
+        <!-- Default vertical divider between menu items. -->
+        <attr name="android:verticalDivider"/>
+        <!-- Default background for the menu header. -->
+        <attr name="android:headerBackground"/>
+        <!-- Default background for each menu item. -->
+        <attr name="android:itemBackground"/>
+        <!-- Default animations for the menu. -->
+        <attr name="android:windowAnimationStyle"/>
+        <!-- Default disabled icon alpha for each menu item that shows an icon. -->
+        <attr name="android:itemIconDisabledAlpha"/>
+        <!-- Whether space should be reserved in layout when an icon is missing. -->
+        <attr format="boolean" name="preserveIconSpacing"/>
+        <!-- Drawable for the arrow icon indicating a particular item is a submenu. -->
+        <attr format="reference" name="subMenuArrow"/>
+    </declare-styleable>
+    <declare-styleable name="PopupWindow">
+        <!-- Whether the popup window should overlap its anchor view. -->
+        <attr format="boolean" name="overlapAnchor"/>
+        <attr name="android:popupBackground"/>
+        <attr name="android:popupAnimationStyle"/>
+    </declare-styleable>
+    <declare-styleable name="PopupWindowBackgroundState">
+        <!-- State identifier indicating the popup will be above the anchor. -->
+        <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable>
+    <declare-styleable name="RecycleListView">
+        <!-- Bottom padding to use when no buttons are present. -->
+        <attr format="dimension" name="paddingBottomNoButtons"/>
+        <!-- Top padding to use when no title is present. -->
+        <attr format="dimension" name="paddingTopNoTitle"/>
+    </declare-styleable>
+    <declare-styleable name="SearchView">
+        <!-- The layout to use for the search view. -->
+        <attr format="reference" name="layout"/>
+        <!-- The default state of the SearchView. If true, it will be iconified when not in
+             use and expanded when clicked. -->
+        <attr format="boolean" name="iconifiedByDefault"/>
+        <!-- An optional maximum width of the SearchView. -->
+        <attr name="android:maxWidth"/>
+        <!-- An optional user-defined query hint string to be displayed in the empty query field. -->
+        <attr format="string" name="queryHint"/>
+        <!-- Default query hint used when {@code queryHint} is undefined and
+             the search view's {@code SearchableInfo} does not provide a hint. -->
+        <attr format="string" name="defaultQueryHint"/>
+        <!-- The IME options to set on the query text field. -->
+        <attr name="android:imeOptions"/>
+        <!-- The input type to set on the query text field. -->
+        <attr name="android:inputType"/>
+        <!-- Close button icon -->
+        <attr format="reference" name="closeIcon"/>
+        <!-- Go button icon -->
+        <attr format="reference" name="goIcon"/>
+        <!-- Search icon -->
+        <attr format="reference" name="searchIcon"/>
+        <!-- Search icon displayed as a text field hint -->
+        <attr format="reference" name="searchHintIcon"/>
+        <!-- Voice button icon -->
+        <attr format="reference" name="voiceIcon"/>
+        <!-- Commit icon shown in the query suggestion row -->
+        <attr format="reference" name="commitIcon"/>
+        <!-- Layout for query suggestion rows -->
+        <attr format="reference" name="suggestionRowLayout"/>
+        <!-- Background for the section containing the search query -->
+        <attr format="reference" name="queryBackground"/>
+        <!-- Background for the section containing the action (e.g. voice search) -->
+        <attr format="reference" name="submitBackground"/>
+        <attr name="android:focusable"/>
+    </declare-styleable>
+    <declare-styleable name="Spinner">
+        <!-- The prompt to display when the spinner's dialog is shown. -->
+        <attr name="android:prompt"/>
+        <!-- Theme to use for the drop-down or dialog popup window. -->
+        <attr name="popupTheme"/>
+        <!-- Background drawable to use for the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:popupBackground"/>
+        <!-- Width of the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:dropDownWidth"/>
+        <!-- Reference to an array resource that will populate the Spinner. -->
+        <attr name="android:entries"/>
+    </declare-styleable>
+    <declare-styleable name="StateListDrawable">
+        <!-- Indicates whether the drawable should be initially visible. -->
+        <attr name="android:visible"/>
+        <!-- If true, allows the drawable's padding to change based on the
+             current state that is selected.  If false, the padding will
+             stay the same (based on the maximum padding of all the states).
+             Enabling this feature requires that the owner of the drawable
+             deal with performing layout when the state changes, which is
+             often not supported. -->
+        <attr name="android:variablePadding"/>
+        <!-- If true, the drawable's reported internal size will remain
+             constant as the state changes; the size is the maximum of all
+             of the states.  If false, the size will vary based on the
+             current state. -->
+        <attr name="android:constantSize"/>
+        <!-- Enables or disables dithering of the bitmap if the bitmap does not have the
+             same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
+             an RGB 565 screen). -->
+        <attr name="android:dither"/>
+        <!-- Amount of time (in milliseconds) to fade in a new state drawable. -->
+        <attr name="android:enterFadeDuration"/>
+        <!-- Amount of time (in milliseconds) to fade out an old state drawable. -->
+        <attr name="android:exitFadeDuration"/>
+        <!-- Indicates if the drawable needs to be mirrored when its layout direction is
+             RTL (right-to-left). -->
+        <!--<attr name="autoMirrored"/>-->
+    </declare-styleable>
+    <declare-styleable name="StateListDrawableItem">
+        <!-- Reference to a drawable resource to use for the state. If not
+             given, the drawable must be defined by the first child tag. -->
+        <attr name="android:drawable"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchCompat">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="android:thumb"/>
+        <!-- Tint to apply to the thumb drawable. -->
+        <attr format="color" name="thumbTint"/>
+        <!-- Blending mode used to apply the thumb tint. -->
+        <attr name="thumbTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr format="reference" name="track"/>
+        <!-- Tint to apply to the track. -->
+        <attr format="color" name="trackTint"/>
+        <!-- Blending mode used to apply the track tint. -->
+        <attr name="trackTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+        <!-- Text to use when the switch is in the checked/"on" state. -->
+        <attr name="android:textOn"/>
+        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        <attr name="android:textOff"/>
+        <!-- Amount of padding on either side of text within the switch thumb. -->
+        <attr format="dimension" name="thumbTextPadding"/>
+        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        <attr format="reference" name="switchTextAppearance"/>
+        <!-- Minimum width for the switch component -->
+        <attr format="dimension" name="switchMinWidth"/>
+        <!-- Minimum space between the switch and caption text -->
+        <attr format="dimension" name="switchPadding"/>
+        <!-- Whether to split the track and leave a gap for the thumb drawable. -->
+        <attr format="boolean" name="splitTrack"/>
+        <!-- Whether to draw on/off text. -->
+        <attr format="boolean" name="showText"/>
+    </declare-styleable>
+    <declare-styleable name="TextAppearance">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:textColorLink"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:textFontWeight"/>
+        <attr name="android:typeface"/>
+        <attr name="android:fontFamily"/>
+        <attr name="fontFamily"/>
+        <attr name="textAllCaps"/>
+        <!-- Set the textLocale by a comma-separated language tag string,
+             for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
+             Before API 24, only the first language tag is used. Starting from API 24,
+             the string will be converted into a {@link android.os.LocaleList} and then used by
+             {@link android.widget.TextView} -->
+        <attr name="textLocale"/>
+        <attr name="android:shadowColor"/>
+        <attr name="android:shadowDy"/>
+        <attr name="android:shadowDx"/>
+        <attr name="android:shadowRadius"/>
+        <!-- OpenType font variation settings, available aftear api 26. -->
+        <attr name="fontVariationSettings"/>
+    </declare-styleable>
+    <declare-styleable name="Toolbar">
+        <attr format="reference" name="titleTextAppearance"/>
+        <attr format="reference" name="subtitleTextAppearance"/>
+        <attr name="title"/>
+        <attr name="subtitle"/>
+        <attr name="android:gravity"/>
+        <!--  Specifies extra space on the left, start, right and end sides
+              of the toolbar's title. Margin values should be positive. -->
+        <attr format="dimension" name="titleMargin"/>
+        <!--  Specifies extra space on the start side of the toolbar's title.
+              If both this attribute and titleMargin are specified, then this
+              attribute takes precedence. Margin values should be positive. -->
+        <attr format="dimension" name="titleMarginStart"/>
+        <!--  Specifies extra space on the end side of the toolbar's title.
+              If both this attribute and titleMargin are specified, then this
+              attribute takes precedence. Margin values should be positive. -->
+        <attr format="dimension" name="titleMarginEnd"/>
+        <!--  Specifies extra space on the top side of the toolbar's title.
+              If both this attribute and titleMargin are specified, then this
+              attribute takes precedence. Margin values should be positive. -->
+        <attr format="dimension" name="titleMarginTop"/>
+        <!--  Specifies extra space on the bottom side of the toolbar's title.
+              If both this attribute and titleMargin are specified, then this
+              attribute takes precedence. Margin values should be positive. -->
+        <attr format="dimension" name="titleMarginBottom"/>
+        <!-- {@deprecated Use titleMargin} -->
+        <attr format="dimension" name="titleMargins"/>
+        <attr name="contentInsetStart"/>
+        <attr name="contentInsetEnd"/>
+        <attr name="contentInsetLeft"/>
+        <attr name="contentInsetRight"/>
+        <attr name="contentInsetStartWithNavigation"/>
+        <attr name="contentInsetEndWithActions"/>
+        <attr format="dimension" name="maxButtonHeight"/>
+        <attr name="buttonGravity">
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+        </attr>
+        <!-- Icon drawable to use for the collapse button. -->
+        <attr format="reference" name="collapseIcon"/>
+        <!-- Text to set as the content description for the collapse button. -->
+        <attr format="string" name="collapseContentDescription"/>
+        <!-- Reference to a theme that should be used to inflate popups
+             shown by widgets in the toolbar. -->
+        <attr name="popupTheme"/>
+        <!-- Icon drawable to use for the navigation button located at
+             the start of the toolbar. -->
+        <attr format="reference" name="navigationIcon"/>
+        <!-- Text to set as the content description for the navigation button
+             located at the start of the toolbar. -->
+        <attr format="string" name="navigationContentDescription"/>
+        <!-- Drawable to set as the logo that appears at the starting side of
+             the Toolbar, just after the navigation button. -->
+        <attr name="logo"/>
+        <!-- A content description string to describe the appearance of the
+             associated logo image. -->
+        <attr format="string" name="logoDescription"/>
+        <!-- A color to apply to the title string. -->
+        <attr format="color" name="titleTextColor"/>
+        <!-- A color to apply to the subtitle string. -->
+        <attr format="color" name="subtitleTextColor"/>
+        <attr name="android:minHeight"/>
+        <!-- Menu resource to inflate to be shown in the toolbar -->
+        <attr format="reference" name="menu"/>
+    </declare-styleable>
+    <declare-styleable name="View">
+        <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->
+        <attr format="dimension" name="paddingStart"/>
+        <!-- Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. -->
+        <attr format="dimension" name="paddingEnd"/>
+        <!-- Boolean that controls whether a view can take focus.  By default the user can not
+             move focus to a view; by setting this attribute to true the view is
+             allowed to take focus.  This value does not impact the behavior of
+             directly calling {@link android.view.View#requestFocus}, which will
+             always request focus regardless of this view.  It only impacts where
+             focus navigation will try to move focus. -->
+        <attr name="android:focusable"/>
+        <!-- Deprecated. -->
+        <attr format="reference" name="theme"/>
+        <!-- Specifies a theme override for a view. When a theme override is set, the
+             view will be inflated using a {@link android.content.Context} themed with
+             the specified resource. -->
+        <attr name="android:theme"/>
+    </declare-styleable>
+    <declare-styleable name="ViewBackgroundHelper">
+        <attr name="android:background"/>
+        <!-- Tint to apply to the background. -->
+        <attr format="color" name="backgroundTint"/>
+
+        <!-- Blending mode used to apply the background tint. -->
+        <attr name="backgroundTintMode">
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
+            <enum name="src_over" value="3"/>
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
+            <enum name="src_in" value="5"/>
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
+            <enum name="src_atop" value="9"/>
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
+            <enum name="multiply" value="14"/>
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
+            <enum name="screen" value="15"/>
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ViewStubCompat">
+        <!-- Supply an identifier for the layout resource to inflate when the ViewStub
+             becomes visible or when forced to do so. The layout resource must be a
+             valid reference to a layout. -->
+        <attr name="android:layout"/>
+        <!-- Overrides the id of the inflated View with this value. -->
+        <attr name="android:inflatedId"/>
+        <attr name="android:id"/>
+    </declare-styleable>
 </resources>

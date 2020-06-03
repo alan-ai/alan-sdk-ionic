@@ -72,6 +72,9 @@ android {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
     }
+    defaultConfig {
+        minSdkVersion 19
+    }
 }
 
 install {

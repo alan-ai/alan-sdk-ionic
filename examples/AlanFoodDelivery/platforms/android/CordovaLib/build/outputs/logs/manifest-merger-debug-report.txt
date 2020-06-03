@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-23:12
+ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:20:1-21:97
 	package
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:21:7-35
 		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
@@ -22,6 +22,10 @@ INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/example
 		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
 		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
 uses-sdk
-ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:22:5-44
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml:22:15-41
+		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
+		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml
+		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/AndroidManifest.xml

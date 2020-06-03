@@ -4,41 +4,41 @@ ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/A
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:2:1-25:12
-MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2e455dd3b9aecb41b13ac5fbb9816b8d/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ae1fc6797d5ca8f9287b34037ff49dc9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/18d4199c29a7b19a92c1ebd54a0b7521/AndroidManifest.xml:2:1-11:12
-MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/code-scanner-2.1.0.aar/04d2c9871e7e1b8f4e32758e87356653/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b155c04c892b503f70f6183abd3026d4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e33ee644f89f419a7efcb8eca9de189d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/fd5edd42a32c8264da97e90bfd65c403/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/de650f20009ba6e77be0c1d42cb5a8af/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4099227daaa3d37104ef76590db0397d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/43a1a2a883b3a6973db72f6ee9113562/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/67c6926e164f520a256973037d141efc/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9c9fb86546c02c8540f0840fe3e3df3d/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/057a1bc12d8acd35ec77780a8d22c261/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a0ba7541a71d373a15b9c874e77dd2c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/4ca64bda574c9ea7b37bd8847f180082/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0c468cd201e455ada544b667c069ab1c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5dab6a172a1e21b327d82b0e56b7f915/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/15150617f6ce956e9223adb12184ee8c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/3b1da38e9211144fa5a60ad61c02daac/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ece2aae89b433ac4cd19561af646f7c6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ac68503f11a3d644e838085a802b72eb/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/9670384eff04d98912ac9d4fd5e743c6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bba720bd00e44e196d5aa57a5aa9e800/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d09a86c54bff3582fa312fef677770ba/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9898ae6263d6cbea74b493dd7667f925/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/eeb32f08487b754b0a46a6dee1658e06/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f70dfbfd00ce0931294a42d31c60b56a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/e371f3e5ef4cefb71cf8f3d158c93614/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02165569945ca95be8ae3702ae0ebfc7/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/02fbea96366d3632e23462b628a4951c/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4d0e3f5a888de6471eb810268b1b3a62/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/933f8c1c49ed1f356ac5568fb60e240e/AndroidManifest.xml:17:1-22:12
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:2:1-25:12
+MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/37f2cce2cf80b008a865e1998ca1c547/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b1c6725a74c7aeed99c111051dda90d7/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/f411f9c1a392fe6b070b92b2df48f6bc/code-scanner-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/d1d07bbdedb263e18a0c5199a444c879/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fd583ce041c3b9065708cd3d54732c8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0381213d61388e3af8c4e8156572ce78/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/ca076b419c269a3b458dec6344329957/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/691b1dbfbcf4ed3883e7ea5867e0e4e5/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3ab2140dada315f4247a100b52170ef3/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/912406519f68c802064beb2e8dec1827/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/50c08f8fdfdf5aca04e26897568cfb85/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0de771fd48881dc2b16429796ac41c01/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/172805f7a58a76f186b8ff71f8e743c0/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/655f75bd10d4f2ebe2e9a7f720e734ba/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/da13e3758e99ac056764a83b899a9ae2/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/55b71d4418374da2a933fc68497bb7c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/63f617e443db2a919a4c3f15d47c3cfd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afa8298dc85ad860627357793a4d0dfb/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
 INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
@@ -74,22 +74,22 @@ ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/A
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:11:5-67
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:11:5-67
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:11:5-67
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:18:5-23:19
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:18:5-23:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/18d4199c29a7b19a92c1ebd54a0b7521/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/18d4199c29a7b19a92c1ebd54a0b7521/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/02fbea96366d3632e23462b628a4951c/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/02fbea96366d3632e23462b628a4951c/AndroidManifest.xml:24:5-25:19
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:18:5-23:19
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:18:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b1c6725a74c7aeed99c111051dda90d7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b1c6725a74c7aeed99c111051dda90d7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -112,7 +112,7 @@ ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/A
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
 	android:name
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
 	android:label
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
@@ -125,110 +125,110 @@ ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/A
 	android:name
 		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 uses-sdk
-ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:7:5-9:41
-MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:7:5-9:41
-MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2e455dd3b9aecb41b13ac5fbb9816b8d/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2e455dd3b9aecb41b13ac5fbb9816b8d/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ae1fc6797d5ca8f9287b34037ff49dc9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ae1fc6797d5ca8f9287b34037ff49dc9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/18d4199c29a7b19a92c1ebd54a0b7521/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/18d4199c29a7b19a92c1ebd54a0b7521/AndroidManifest.xml:5:5-7:41
-MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/code-scanner-2.1.0.aar/04d2c9871e7e1b8f4e32758e87356653/AndroidManifest.xml:7:5-9:41
-MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/code-scanner-2.1.0.aar/04d2c9871e7e1b8f4e32758e87356653/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b155c04c892b503f70f6183abd3026d4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/b155c04c892b503f70f6183abd3026d4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e33ee644f89f419a7efcb8eca9de189d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/e33ee644f89f419a7efcb8eca9de189d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/fd5edd42a32c8264da97e90bfd65c403/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/fd5edd42a32c8264da97e90bfd65c403/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/de650f20009ba6e77be0c1d42cb5a8af/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/de650f20009ba6e77be0c1d42cb5a8af/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4099227daaa3d37104ef76590db0397d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/4099227daaa3d37104ef76590db0397d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/43a1a2a883b3a6973db72f6ee9113562/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/43a1a2a883b3a6973db72f6ee9113562/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/67c6926e164f520a256973037d141efc/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/67c6926e164f520a256973037d141efc/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9c9fb86546c02c8540f0840fe3e3df3d/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/9c9fb86546c02c8540f0840fe3e3df3d/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/057a1bc12d8acd35ec77780a8d22c261/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/057a1bc12d8acd35ec77780a8d22c261/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a0ba7541a71d373a15b9c874e77dd2c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/6a0ba7541a71d373a15b9c874e77dd2c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/4ca64bda574c9ea7b37bd8847f180082/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/4ca64bda574c9ea7b37bd8847f180082/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0c468cd201e455ada544b667c069ab1c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/0c468cd201e455ada544b667c069ab1c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5dab6a172a1e21b327d82b0e56b7f915/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/5dab6a172a1e21b327d82b0e56b7f915/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/15150617f6ce956e9223adb12184ee8c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/15150617f6ce956e9223adb12184ee8c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/3b1da38e9211144fa5a60ad61c02daac/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/3b1da38e9211144fa5a60ad61c02daac/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ece2aae89b433ac4cd19561af646f7c6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/ece2aae89b433ac4cd19561af646f7c6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ac68503f11a3d644e838085a802b72eb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ac68503f11a3d644e838085a802b72eb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/9670384eff04d98912ac9d4fd5e743c6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/9670384eff04d98912ac9d4fd5e743c6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bba720bd00e44e196d5aa57a5aa9e800/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/bba720bd00e44e196d5aa57a5aa9e800/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d09a86c54bff3582fa312fef677770ba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/d09a86c54bff3582fa312fef677770ba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9898ae6263d6cbea74b493dd7667f925/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9898ae6263d6cbea74b493dd7667f925/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/eeb32f08487b754b0a46a6dee1658e06/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/eeb32f08487b754b0a46a6dee1658e06/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f70dfbfd00ce0931294a42d31c60b56a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/f70dfbfd00ce0931294a42d31c60b56a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/e371f3e5ef4cefb71cf8f3d158c93614/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/e371f3e5ef4cefb71cf8f3d158c93614/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/7ef9a89441f3b317b92b5831f718942a/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02165569945ca95be8ae3702ae0ebfc7/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02165569945ca95be8ae3702ae0ebfc7/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/02fbea96366d3632e23462b628a4951c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/02fbea96366d3632e23462b628a4951c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4d0e3f5a888de6471eb810268b1b3a62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/4d0e3f5a888de6471eb810268b1b3a62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/933f8c1c49ed1f356ac5568fb60e240e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/933f8c1c49ed1f356ac5568fb60e240e/AndroidManifest.xml:20:5-44
-INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
+ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-47
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-47
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:7:5-9:41
+MERGED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/CordovaLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/37f2cce2cf80b008a865e1998ca1c547/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/37f2cce2cf80b008a865e1998ca1c547/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b1c6725a74c7aeed99c111051dda90d7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b1c6725a74c7aeed99c111051dda90d7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/f411f9c1a392fe6b070b92b2df48f6bc/code-scanner-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/f411f9c1a392fe6b070b92b2df48f6bc/code-scanner-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/d1d07bbdedb263e18a0c5199a444c879/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/d1d07bbdedb263e18a0c5199a444c879/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afe47620bcf1e5e2fd90f044b1faac7d/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fd583ce041c3b9065708cd3d54732c8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fd583ce041c3b9065708cd3d54732c8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2f9e448315178fa6b4234b3459b778f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0381213d61388e3af8c4e8156572ce78/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0381213d61388e3af8c4e8156572ce78/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/ca076b419c269a3b458dec6344329957/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/ca076b419c269a3b458dec6344329957/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/b230f7c74754aa0b421d83557df1f73b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/bcb70fbf4324733193b125d0996304de/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/691b1dbfbcf4ed3883e7ea5867e0e4e5/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/691b1dbfbcf4ed3883e7ea5867e0e4e5/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/98238b8a32aa89ad8f66a169389965ad/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3e0667e4edc721422f45c63ca8d79fdf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3ab2140dada315f4247a100b52170ef3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/3ab2140dada315f4247a100b52170ef3/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/912406519f68c802064beb2e8dec1827/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/912406519f68c802064beb2e8dec1827/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/337fb054bb21eaede749dd65aaea9fcd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/38a48dbc860fe0f1f1efdce87916ebc2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/50c08f8fdfdf5aca04e26897568cfb85/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/50c08f8fdfdf5aca04e26897568cfb85/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fa0935890922c72ba98a60731b9c0aff/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/31ebe3e4a9db3052659e49994522284e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/359be921d71f06ca653922feb0243c87/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0de771fd48881dc2b16429796ac41c01/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/0de771fd48881dc2b16429796ac41c01/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/172805f7a58a76f186b8ff71f8e743c0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/172805f7a58a76f186b8ff71f8e743c0/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/655f75bd10d4f2ebe2e9a7f720e734ba/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/655f75bd10d4f2ebe2e9a7f720e734ba/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/206f44bab7c1e7989bca28f40040593b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/da13e3758e99ac056764a83b899a9ae2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/da13e3758e99ac056764a83b899a9ae2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/55b71d4418374da2a933fc68497bb7c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/55b71d4418374da2a933fc68497bb7c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/90bed55493d65d4716feb9c2dc9084cb/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/2c30082cf6e077f1dd74976142419f5c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/63f617e443db2a919a4c3f15d47c3cfd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/63f617e443db2a919a4c3f15d47c3cfd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afa8298dc85ad860627357793a4d0dfb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/afa8298dc85ad860627357793a4d0dfb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-47
 	android:targetSdkVersion
-		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
+		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:15-44
 	android:minSdkVersion
-		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
 		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml:13:5-47
 		INJECTED from /Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:12:5-71
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:12:22-68
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:12:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:13:5-81
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:13:22-78
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:14:5-80
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:14:22-77
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:14:22-77
 uses-permission#android.permission.CAMERA
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:15:5-65
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:15:5-65
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:15:22-62
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:15:22-62
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:16:5-68
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:16:5-68
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:16:22-65
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:16:22-65
 activity#com.alan.alansdk.qr.QRScanActivity
-ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:19:9-22:54
+ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:19:9-22:54
 	android:screenOrientation
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:21:13-49
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:21:13-49
 	android:theme
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:22:13-51
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:22:13-51
 	android:name
-		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/sdk-4.7.8.aar/afa504369ba346939dc58e1493bcb0bf/AndroidManifest.xml:20:13-62
+		ADDED from [app.alan:sdk:4.7.8] /Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/a33a052b1861ffd8d580c55ca5e14fe1/sdk-4.7.8/AndroidManifest.xml:20:13-62

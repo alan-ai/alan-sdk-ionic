@@ -4,7 +4,7 @@
             "outputFile": "/Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/alekseymakarkin/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2e455dd3b9aecb41b13ac5fbb9816b8d/res/values-v22/values-v22.xml",
+                    "source": "/Users/alekseymakarkin/.gradle/caches/transforms-2/files-2.1/fc95f0e032225dc2c7c22afbfdb31fa4/appcompat-1.1.0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
