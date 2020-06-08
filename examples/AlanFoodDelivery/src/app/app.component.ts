@@ -78,7 +78,7 @@ export class AppComponent {
         });
 
         // add event listener for commands which we received from the alan server
-        this.alanBtnComponent.nativeElement.addEventListener('alanCommand', (data) => {
+        this.alanBtnComponent.nativeElement.addEventListener('command', (data) => {
             const commandData = (<CustomEvent>data).detail;
 
             console.info('Command was received: ', commandData);
