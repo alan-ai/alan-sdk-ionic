@@ -1,0 +1,7 @@
+{
+  "name": "alan-react-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

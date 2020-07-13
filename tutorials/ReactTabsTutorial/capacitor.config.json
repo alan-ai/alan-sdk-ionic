@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "alan-react-ionic",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
