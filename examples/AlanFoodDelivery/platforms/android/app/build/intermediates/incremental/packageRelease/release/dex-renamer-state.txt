@@ -1,4 +1,0 @@
-#Tue Jun 02 17:23:26 MSK 2020
-base.0=/Users/alekseymakarkin/AndroidProjects/Alan/alan-sdk-ionic/examples/AlanFoodDelivery/platforms/android/app/build/intermediates/transforms/dex/release/0
-path.0=classes.dex
-renamed.0=classes.dex

@@ -110,6 +110,5 @@
     </plugin>
     <plugin name="cordova-ios-plugin-no-export-compliance" spec="0.0.5" />
     <engine name="browser" spec="5.0.4" />
-    <engine name="android" spec="7.1.4" />
-    <plugin name="cordova-plugin-alan-voice" spec="./../../plugins/cordova-plugin-alan" />
+    <engine name="android" spec="8.1.0" />
 </widget>
