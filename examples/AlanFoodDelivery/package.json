@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@alan-ai/alan-button": "^1.7.0",
-    "@alan-ai/cordova-plugin-alan-voice": "^1.5.5",
+    "@alan-ai/cordova-plugin-alan-voice": "^1.6.1",
     "@angular/animations": "^7.2.9",
     "@angular/common": "^7.2.2",
     "@angular/core": "^7.2.2",
