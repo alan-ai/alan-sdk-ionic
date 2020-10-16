@@ -1,0 +1,110 @@
+# For a detailed guide to building and testing on iOS, read the docs:
+# https://circleci.com/docs/2.0/testing-ios/
+
+version: 2.1
+
+orbs:
+  node: circleci/node@4.1.0
+
+jobs:
+  build_android:
+    docker:
+      - image: circleci/android:api-28-node
+    steps:
+      - checkout
+      - run: sudo mkdir /opt/gradle
+      - run: sudo wget https://services.gradle.org/distributions/gradle-6.7-bin.zip
+      - run: sudo unzip -d /opt/gradle gradle-6.7-bin.zip
+      - run: echo 'export export PATH=$PATH:/opt/gradle/gradle-6.7/bin:$PATH' >> $BASH_ENV
+      - run: gradle -v
+      - run:
+          name: Installing JDK 1.8 required for Cordova support
+          command: |
+            sudo apt update
+            sudo apt install software-properties-common
+            sudo apt update
+            wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+            sudo add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+            sudo apt update
+            sudo apt install adoptopenjdk-8-hotspot
+            echo 'export PATH=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/bin:$PATH' >> $BASH_ENV
+            echo 'export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64' >> $BASH_ENV
+            source $BASH_ENV
+      - run:
+          name: Setup PATH variables
+          command: |
+            export PATH=$ANDROID_HOME/platform-tools:$PATH
+            export PATH=$ANDROID_HOME/tools:$PATH
+      - restore_cache:
+          keys:
+            - node-modules-cache
+      - run:
+          name: Install Cordova
+          command: sudo npm install -g cordova ionic
+      - run:
+          name: Install Dependencies
+          command: cd examples/AlanBasicExample && npm install
+      - run:
+          name: Remove android platform
+          command: cd examples/AlanFoodDelivery && ionic cordova platform rm android
+      - run:
+          name: Add platfrom Android
+          command: cd examples/AlanFoodDelivery && ionic cordova platform add android@8.1.0
+      - run:
+          name: Build Cordova app for Android
+          command: cd examples/AlanBasicExample && ionic cordova build android
+      - save_cache:
+          key: node-modules-cache
+          paths:
+            - ./node_modules
+  build_ios:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - node/install:
+         install-yarn: true
+         install-npm: true
+         node-version: 10.22.0
+      - run: node --version
+      - run:
+          name: decode Certificates
+          command: base64 -D -o Certificates.p12 \<<< $Certificates
+      - run:
+          name: make Provisioning Profiles directory
+          command: mkdir -pv ~/Library/MobileDevice/Provisioning\ Profiles/
+      - run:
+          name: decode Provisioning Profiles
+          command: base64 -D -o ~/Library/MobileDevice/Provisioning\ Profiles/App_Store.mobileprovision \<<< $App_Store_Profile
+      - run: bundle exec fastlane clean
+      - restore_cache:
+          keys:
+            - node-modules-cache
+      - run:
+          name: Install Ionic and Cordova
+          command: sudo npm install -g cordova ionic 
+      - run:
+          name: export path
+          command: echo 'export PATH="$PATH:/usr/local/bin"' >> $BASH_ENV 
+      - run:
+          name: Install Dependencies
+          command: cd examples/AlanFoodDelivery && npm install
+      - run:
+          name: Add platfrom iOS
+          command: cd examples/AlanFoodDelivery && ionic cordova platform remove android && ionic cordova platform remove ios && ionic cordova platform add ios
+      - run:
+          name: Build Ionic Food Delivery for iOS
+          command: cd examples/AlanFoodDelivery && ionic cordova build ios
+      - save_cache:
+          key: node-modules-cache
+          paths:
+            - ./node_modules
+            
+workflows:
+  version: 2.1
+  build-android-and-ios:
+    jobs:
+      - build_android
+      - build_ios
+
+    
