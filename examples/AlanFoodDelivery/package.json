@@ -28,7 +28,7 @@
     "@ionic-native/status-bar": "5.0.0",
     "@ionic/angular": "4.0.0",
     "@ionic/pro": "2.0.4",
-    "cordova-android": "8.1.0",
+    "cordova-android": "^9.1.0",
     "cordova-browser": "5.0.4",
     "cordova-ios": "^5.1.1",
     "cordova-ios-plugin-no-export-compliance": "0.0.5",
