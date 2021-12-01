@@ -4,7 +4,7 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.1.0
+  node: circleci/node@4.7.0
 
 jobs:
   build_android:
@@ -63,9 +63,8 @@ jobs:
     steps:
       - checkout
       - node/install:
-         install-yarn: true
          install-npm: true
-         node-version: 10.22.0
+         node-version: 16.13.0
       - run: node --version
       - run:
           name: decode Certificates
