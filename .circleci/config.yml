@@ -93,10 +93,7 @@ jobs:
       - run:
           name: Build Ionic Food Delivery for iOS
           command: cd examples/AlanFoodDelivery && ionic cordova build ios
-      - save_cache:
-          key: node-modules-cache
-          paths:
-            - ./node_modules
+
             
 workflows:
   version: 2.1
