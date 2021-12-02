@@ -77,9 +77,7 @@ jobs:
           name: decode Provisioning Profiles
           command: base64 -D -o ~/Library/MobileDevice/Provisioning\ Profiles/App_Store.mobileprovision \<<< $App_Store_Profile
       - run: bundle exec fastlane clean
-      - restore_cache:
-          keys:
-            - node-modules-cache
+      - run: sudo npm cache clean --force 
       - run:
           name: Install Ionic and Cordova
           command: sudo npm install -g cordova ionic 
