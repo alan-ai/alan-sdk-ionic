@@ -66,6 +66,7 @@ jobs:
          install-npm: true
          node-version: 16.13.0
       - run: node --version
+      - run: sudo chown -R 501:20 "/Users/distiller/.npm"
       - run:
           name: decode Certificates
           command: base64 -D -o Certificates.p12 \<<< $Certificates
