@@ -62,6 +62,7 @@ jobs:
       xcode: 11.3.0
     steps:
       - checkout
+      - run: sudo chown -R 501:20 "/Users/distiller/.npm"
       - node/install:
          install-npm: true
          node-version: 16.13.0
