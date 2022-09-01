@@ -20,14 +20,15 @@ export class AppComponent {
     private address: string;
     private visualState: any = {};
     private greetingWasSaid: boolean = false;
+    private splashScreenWasHide: boolean = this.platform.is('desktop');
     @ViewChild('alanBtnEl') alanBtnComponent: ElementRef<HTMLAlanButtonElement>;
 
     constructor(private platform: Platform,
-                private splashScreen: SplashScreen,
-                private statusBar: StatusBar,
-                public navCtrl: NavController,
-                private router: Router,
-                private orderDetailService: OrderDetailService) {
+        private splashScreen: SplashScreen,
+        private statusBar: StatusBar,
+        public navCtrl: NavController,
+        private router: Router,
+        private orderDetailService: OrderDetailService) {
         this.initializeApp();
     }
 
@@ -35,6 +36,7 @@ export class AppComponent {
         this.platform.ready().then(() => {
             this.statusBar.styleDefault();
             this.splashScreen.hide();
+            this.splashScreenWasHide = true;
             this.orderDetailService.syncRoute(this.router.url);
         });
     }
@@ -67,13 +69,19 @@ export class AppComponent {
     ngAfterViewInit() {
         // add event listener for connectionStatus,
         // when connection established we greet a user in the app
+        let interval;
         this.alanBtnComponent.nativeElement.addEventListener('connectionStatus', (data) => {
             const connectionStatus = (<CustomEvent>data).detail;
             if (connectionStatus === 'connected') {
-                if (!this.greetingWasSaid) {
-                    this.greetUserForFirstTime();
-                    this.greetingWasSaid = true
-                }
+                interval = setInterval(() => {
+                    if (this.splashScreenWasHide) {
+                        if (!this.greetingWasSaid) {
+                            clearInterval(interval);
+                            this.greetUserForFirstTime();
+                            this.greetingWasSaid = true;
+                        }
+                    }
+                }, 400);
             }
         });
 

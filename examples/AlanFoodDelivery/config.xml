@@ -14,11 +14,12 @@
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
-    <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="FadeSplashScreenDuration" value="0" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="0" />
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
